@@ -13,6 +13,10 @@
 
 - 输出：data/<日期>.json、data/latest.json、data/index.json（日期清单）。
 
+- 去重：当天榜单内容和上次完全一样时，不另存日期文件，index.json 记
+  alias（今天 -> 上次日期），页面按 alias 取数；git 本来也会把相同内容
+  只存一份 blob，所以重复天基本不占空间。
+
 - 日期一律按北京时间（Asia/Shanghai）。
 
 - 简介翻译：英文 description 翻成中文存 description_zh，翻译结果缓存在
@@ -123,6 +127,54 @@ def clean(repo):
     }
 
 
+def load_json(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def save_payload(payload, data_dir):
+    """写 data/ 输出，返回一句话说明。
+
+    当天榜单内容和 latest.json 完全一样时，不另存日期文件，index.json 记
+    alias（今天 -> 上次日期），页面按 alias 取数。
+    """
+    date_str = payload["date"]
+    cats = payload["categories"]
+    prev = load_json(os.path.join(data_dir, "latest.json"))
+    prev_cats = prev.get("categories") if isinstance(prev, dict) else None
+    prev_date = prev.get("date") if isinstance(prev, dict) else None
+
+    idx = load_json(os.path.join(data_dir, "index.json")) or {}
+    dates = idx.get("dates", []) or []
+    alias = idx.get("alias", {}) or {}
+
+    if prev_cats is not None and prev_cats == cats and prev_date and prev_date != date_str:
+        alias[date_str] = prev_date
+        note = f"same as {prev_date}, alias {date_str} -> {prev_date}, no new day file"
+    else:
+        day_path = os.path.join(data_dir, f"{date_str}.json")
+        with open(day_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        alias.pop(date_str, None)
+        note = f"wrote {day_path}"
+
+    with open(os.path.join(data_dir, "latest.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    if date_str not in dates:
+        dates.append(date_str)
+    dates.sort()
+    out_idx = {"dates": dates}
+    if alias:
+        out_idx["alias"] = alias
+    with open(os.path.join(data_dir, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(out_idx, f, ensure_ascii=False, indent=2)
+    return note
+
+
 def translate_one(text):
     """一条英文简介翻成中文；失败返回 ''（下次运行再试）。"""
     params = urllib.parse.urlencode({
@@ -226,28 +278,11 @@ def main():
         "categories": cats,
     }
 
-    day_path = os.path.join(data_dir, f"{date_str}.json")
-    with open(day_path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
-
-    with open(os.path.join(data_dir, "latest.json"), "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
-
-    index_path = os.path.join(data_dir, "index.json")
-    dates = []
-    if os.path.exists(index_path):
-        try:
-            dates = json.load(open(index_path, encoding="utf-8")).get("dates", [])
-        except Exception:
-            dates = []
-    if date_str not in dates:
-        dates.append(date_str)
-    dates.sort()
-    with open(index_path, "w", encoding="utf-8") as f:
-        json.dump({"dates": dates}, f, ensure_ascii=False, indent=2)
+    note = save_payload(payload, data_dir)
+    print(note)
 
     total = sum(len(c["repos"]) for c in cats)
-    print(f"done: {day_path} ({total} repos, {len(cats)} categories)")
+    print(f"done: {date_str} ({total} repos, {len(cats)} categories)")
 
 
 if __name__ == "__main__":
