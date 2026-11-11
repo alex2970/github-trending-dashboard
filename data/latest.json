@@ -1,0 +1,1918 @@
+{
+  "date": "2026-11-11",
+  "fetched_at": "2026-11-11 23:26 CST",
+  "categories": [
+    {
+      "id": "all",
+      "name": "总榜",
+      "icon": "🔥",
+      "desc": "近 30 天创建、最受关注的新项目",
+      "repos": [
+        {
+          "name": "cleanyourtv",
+          "full_name": "Gathin23/cleanyourtv",
+          "html_url": "https://github.com/Gathin23/cleanyourtv",
+          "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+          "language": "Python",
+          "stars": 56330,
+          "forks": 7248,
+          "issues": 183,
+          "created_at": "2026-10-17",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "adb",
+            "adblock",
+            "android-tv",
+            "android-tv-launcher",
+            "apple-tv"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/94786511?v=4"
+        },
+        {
+          "name": "craft-anything",
+          "full_name": "storytold/craft-anything",
+          "html_url": "https://github.com/storytold/craft-anything",
+          "description": "Craft Anything: understand how any software works, and craft your own.",
+          "language": "Rust",
+          "stars": 27993,
+          "forks": 5673,
+          "issues": 308,
+          "created_at": "2026-10-31",
+          "pushed_at": "2026-11-11",
+          "topics": [],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4"
+        },
+        {
+          "name": "DeepInfer",
+          "full_name": "deepseek-ai/DeepInfer",
+          "html_url": "https://github.com/deepseek-ai/DeepInfer",
+          "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+          "language": "Python",
+          "stars": 25854,
+          "forks": 3169,
+          "issues": 247,
+          "created_at": "2026-10-16",
+          "pushed_at": "2026-11-03",
+          "topics": [],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4"
+        },
+        {
+          "name": "dsh-superagent-prototype",
+          "full_name": "deepseek-ai/dsh-superagent-prototype",
+          "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "description": "Towards a More Autonomous Agent System",
+          "language": "TypeScript",
+          "stars": 22433,
+          "forks": 2721,
+          "issues": 0,
+          "created_at": "2026-10-31",
+          "pushed_at": "2026-11-03",
+          "topics": [],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4"
+        },
+        {
+          "name": "dsh-Go",
+          "full_name": "ccch1mneyyy/dsh-Go",
+          "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
+          "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+          "language": "Dart",
+          "stars": 19529,
+          "forks": 864,
+          "issues": 560,
+          "created_at": "2026-10-25",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agent",
+            "android",
+            "android-app",
+            "coding-agent",
+            "deepseek"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/268149062?v=4"
+        },
+        {
+          "name": "gpu-unlock",
+          "full_name": "Zagitta/gpu-unlock",
+          "html_url": "https://github.com/Zagitta/gpu-unlock",
+          "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+          "language": "C",
+          "stars": 18683,
+          "forks": 1913,
+          "issues": 130,
+          "created_at": "2026-10-18",
+          "pushed_at": "2026-10-29",
+          "topics": [],
+          "license": null,
+          "avatar": "https://avatars.githubusercontent.com/u/865977?v=4"
+        },
+        {
+          "name": "nxnative",
+          "full_name": "seedds/nxnative",
+          "html_url": "https://github.com/seedds/nxnative",
+          "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+          "language": "Python",
+          "stars": 14726,
+          "forks": 2633,
+          "issues": 1095,
+          "created_at": "2026-10-13",
+          "pushed_at": "2026-11-11",
+          "topics": [],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/3463322?v=4"
+        },
+        {
+          "name": "unslop",
+          "full_name": "heydamir/unslop",
+          "html_url": "https://github.com/heydamir/unslop",
+          "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+          "language": "JavaScript",
+          "stars": 14327,
+          "forks": 793,
+          "issues": 5,
+          "created_at": "2026-10-29",
+          "pushed_at": "2026-11-08",
+          "topics": [],
+          "license": "CC-BY-4.0",
+          "avatar": "https://avatars.githubusercontent.com/u/97800728?v=4"
+        },
+        {
+          "name": "aerial-tv",
+          "full_name": "pengchujin/aerial-tv",
+          "html_url": "https://github.com/pengchujin/aerial-tv",
+          "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+          "language": "Kotlin",
+          "stars": 11259,
+          "forks": 966,
+          "issues": 389,
+          "created_at": "2026-10-20",
+          "pushed_at": "2026-11-11",
+          "topics": [],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/16513318?v=4"
+        },
+        {
+          "name": "learnharness",
+          "full_name": "amosblomqvist/learnharness",
+          "html_url": "https://github.com/amosblomqvist/learnharness",
+          "description": "Agent harness for learning difficult things.",
+          "language": "TypeScript",
+          "stars": 8596,
+          "forks": 1151,
+          "issues": 478,
+          "created_at": "2026-10-16",
+          "pushed_at": "2026-11-11",
+          "topics": [],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/255718537?v=4"
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "name": "办公效率",
+      "icon": "📋",
+      "desc": "笔记、待办、文档与效率工具",
+      "repos": [
+        {
+          "name": "TokenEconomizer",
+          "full_name": "microsoft/TokenEconomizer",
+          "html_url": "https://github.com/microsoft/TokenEconomizer",
+          "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+          "language": "Python",
+          "stars": 5713,
+          "forks": 358,
+          "issues": 32,
+          "created_at": "2026-10-13",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "agentic-ai",
+            "agentic-coding",
+            "ai-coding",
+            "ai-coding-assistant",
+            "anthropic"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4"
+        },
+        {
+          "name": "TwinDesk",
+          "full_name": "InukaAsith/TwinDesk",
+          "html_url": "https://github.com/InukaAsith/TwinDesk",
+          "description": " All your computers and your phone/iPhone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux , Android, Web and ios / ipados . Free and open source. No account, no cloud, and no shared network needed.",
+          "language": "JavaScript",
+          "stars": 3925,
+          "forks": 304,
+          "issues": 32,
+          "created_at": "2026-10-14",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "android",
+            "apple-ecosystem",
+            "connect",
+            "electron",
+            "file-sharing"
+          ],
+          "license": "GPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/70461117?v=4"
+        },
+        {
+          "name": "oink",
+          "full_name": "oinkvm/oink",
+          "html_url": "https://github.com/oinkvm/oink",
+          "description": "Your computers, working as one. Share keyboard, mouse, trackpad, clipboard, drag and drop and audio across Macs and PCs.",
+          "language": "Rust",
+          "stars": 1318,
+          "forks": 110,
+          "issues": 23,
+          "created_at": "2026-10-19",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "audio-sharing",
+            "barrier-alternative",
+            "clipboard-sync",
+            "cross-platform",
+            "drag-and-drop"
+          ],
+          "license": "GPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/341654504?v=4"
+        },
+        {
+          "name": "kanzo",
+          "full_name": "emanuele-em/kanzo",
+          "html_url": "https://github.com/emanuele-em/kanzo",
+          "description": "Self-hosted, sharable kanban for humans and agents. One 4.7 MB binary, 5 MB of RAM, 10 to 60 tokens per agent reply, starts in 3 ms, zero setup.",
+          "language": "Rust",
+          "stars": 1155,
+          "forks": 92,
+          "issues": 9,
+          "created_at": "2026-10-25",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agents",
+            "claude-code",
+            "cli",
+            "codex",
+            "coding-agents"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/100081325?v=4"
+        },
+        {
+          "name": "WinShun",
+          "full_name": "LingCore/WinShun",
+          "html_url": "https://github.com/LingCore/WinShun",
+          "description": "Win顺：免费开源的 Windows 快速搜索启动器。双击 Ctrl，拼音秒搜文件、全文搜索 Word/Excel/PDF、剪贴板历史（代替 Win+V）、对话框搜索、任务栏搜索、插件、AI 助手 MCP。Free Windows search launcher: pinyin file search, full-text search, clipboard history, MCP server. Everything/Listary alternative.",
+          "language": "C++",
+          "stars": 975,
+          "forks": 66,
+          "issues": 50,
+          "created_at": "2026-10-08",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "chinese",
+            "clipboard-history",
+            "clipboard-manager",
+            "cpp",
+            "everything"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/53141949?v=4"
+        },
+        {
+          "name": "PecoFence",
+          "full_name": "DayuanJiang/PecoFence",
+          "html_url": "https://github.com/DayuanJiang/PecoFence",
+          "description": "A free, open-source Stardock Fences alternative for Windows 11 and 10. Glass fences, live folders, tabs, Peek. Rust, a few MB of RAM at rest, 11 languages, portable.",
+          "language": "Rust",
+          "stars": 890,
+          "forks": 51,
+          "issues": 25,
+          "created_at": "2026-09-13",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "desktop",
+            "desktop-organizer",
+            "direct2d",
+            "fences",
+            "productivity"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/34411969?v=4"
+        },
+        {
+          "name": "atticus-mac",
+          "full_name": "SaarthurR/atticus-mac",
+          "html_url": "https://github.com/SaarthurR/atticus-mac",
+          "description": "Fast, free voice assistant for your Mac. No API key. Remembers you and learns your shortcuts. Hold ⌃⌥Space and talk.",
+          "language": "Python",
+          "stars": 724,
+          "forks": 75,
+          "issues": 4,
+          "created_at": "2026-10-10",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "claude",
+            "claude-code",
+            "macos",
+            "menubar-app",
+            "open-source"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/123905329?v=4"
+        },
+        {
+          "name": "xiaotang-daozai",
+          "full_name": "Renly1994/xiaotang-daozai",
+          "html_url": "https://github.com/Renly1994/xiaotang-daozai",
+          "description": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。",
+          "language": "Rust",
+          "stars": 662,
+          "forks": 123,
+          "issues": 34,
+          "created_at": "2026-11-03",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "desktop-widget",
+            "dynamic-island",
+            "egui",
+            "productivity",
+            "rust"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/284593714?v=4"
+        },
+        {
+          "name": "betterwispr",
+          "full_name": "opennookorg/betterwispr",
+          "html_url": "https://github.com/opennookorg/betterwispr",
+          "description": "Free, open-source, local-first dictation app for macOS. Hold a shortcut, speak, and text is typed into any app. On-device speech-to-text with Whisper, Parakeet and Apple speech. Private, offline, open-source Wispr Flow alternative.",
+          "language": "Swift",
+          "stars": 525,
+          "forks": 53,
+          "issues": 20,
+          "created_at": "2026-10-07",
+          "pushed_at": "2026-11-07",
+          "topics": [
+            "apple-silicon",
+            "dictation",
+            "local-first",
+            "macos",
+            "meeting-notes"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/320128903?v=4"
+        },
+        {
+          "name": "no-tipe-releases",
+          "full_name": "Darlingfxx02/no-tipe-releases",
+          "html_url": "https://github.com/Darlingfxx02/no-tipe-releases",
+          "description": "Free desktop dictation for macOS and Windows. Speak messages, emails and notes into your apps with local or cloud speech recognition.",
+          "language": "HTML",
+          "stars": 518,
+          "forks": 58,
+          "issues": 0,
+          "created_at": "2026-10-01",
+          "pushed_at": "2026-10-13",
+          "topics": [
+            "desktop-app",
+            "dictation",
+            "macos",
+            "offline",
+            "productivity"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/176955033?v=4"
+        }
+      ]
+    },
+    {
+      "id": "devtools",
+      "name": "开发工具",
+      "icon": "🛠️",
+      "desc": "开发者工具、CLI 与工程效率",
+      "repos": [
+        {
+          "name": "dsh-our-free-model",
+          "full_name": "Ebony-Vinyl/dsh-our-free-model",
+          "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+          "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+          "language": "JavaScript",
+          "stars": 69764,
+          "forks": 1891,
+          "issues": 168,
+          "created_at": "2026-09-24",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agents",
+            "deepseek",
+            "deepseek-harness",
+            "developer-tools",
+            "dsh"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/245557608?v=4"
+        },
+        {
+          "name": "elephant-goldfish-model",
+          "full_name": "google/elephant-goldfish-model",
+          "html_url": "https://github.com/google/elephant-goldfish-model",
+          "description": "Open-source plugin for designing and reviewing software with agents",
+          "language": "Python",
+          "stars": 17464,
+          "forks": 1302,
+          "issues": 107,
+          "created_at": "2026-09-13",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "antigravity",
+            "claude-code",
+            "claude-code-plugin"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/1342004?v=4"
+        },
+        {
+          "name": "openidea",
+          "full_name": "l0ng-ai/openidea",
+          "html_url": "https://github.com/l0ng-ai/openidea",
+          "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+          "language": "TypeScript",
+          "stars": 8544,
+          "forks": 750,
+          "issues": 169,
+          "created_at": "2026-10-21",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "code-editor",
+            "cross-platform",
+            "dap",
+            "database-client",
+            "debugger"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/24760907?v=4"
+        },
+        {
+          "name": "answer-me-with-html",
+          "full_name": "QingYunA/answer-me-with-html",
+          "html_url": "https://github.com/QingYunA/answer-me-with-html",
+          "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+          "language": "JavaScript",
+          "stars": 6234,
+          "forks": 415,
+          "issues": 10,
+          "created_at": "2026-10-02",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "agent-skill",
+            "ai-agent",
+            "claude-code",
+            "claude-code-skill",
+            "claude-skill"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/41177312?v=4"
+        },
+        {
+          "name": "RemoveMacAI",
+          "full_name": "omlahore/RemoveMacAI",
+          "html_url": "https://github.com/omlahore/RemoveMacAI",
+          "description": "Turn off Apple Intelligence and delete its models on your Mac. Optional tweaks for analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
+          "language": "Swift",
+          "stars": 6018,
+          "forks": 173,
+          "issues": 12,
+          "created_at": "2026-09-29",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-blocker",
+            "anti-ai",
+            "apple-intelligence",
+            "cli",
+            "debloat"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/119071446?v=4"
+        },
+        {
+          "name": "shaders",
+          "full_name": "shader-effects-inc/shaders",
+          "html_url": "https://github.com/shader-effects-inc/shaders",
+          "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+          "language": "TypeScript",
+          "stars": 5903,
+          "forks": 276,
+          "issues": 3,
+          "created_at": "2026-09-29",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "cli",
+            "javascript",
+            "mcp",
+            "react",
+            "shaders"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/265144305?v=4"
+        },
+        {
+          "name": "agent-autoloop",
+          "full_name": "KKKKhazix/agent-autoloop",
+          "html_url": "https://github.com/KKKKhazix/agent-autoloop",
+          "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+          "language": "TypeScript",
+          "stars": 4518,
+          "forks": 826,
+          "issues": 2,
+          "created_at": "2026-11-03",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agents",
+            "automation",
+            "claude-code",
+            "cli",
+            "codex"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4"
+        },
+        {
+          "name": "floorplan",
+          "full_name": "haydenschmitty/floorplan",
+          "html_url": "https://github.com/haydenschmitty/floorplan",
+          "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+          "language": "JavaScript",
+          "stars": 3547,
+          "forks": 282,
+          "issues": 61,
+          "created_at": "2026-10-27",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-coding",
+            "architecture-diagram",
+            "claude",
+            "claude-code",
+            "claude-code-plugin"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/348570593?v=4"
+        },
+        {
+          "name": "NOIR",
+          "full_name": "Verlintas/NOIR",
+          "html_url": "https://github.com/Verlintas/NOIR",
+          "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+          "language": "Kotlin",
+          "stars": 3272,
+          "forks": 301,
+          "issues": 2,
+          "created_at": "2026-10-31",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "adb",
+            "android",
+            "android-privacy",
+            "android-security",
+            "android-tools"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/310443301?v=4"
+        },
+        {
+          "name": "jevgrep",
+          "full_name": "dzhng/jevgrep",
+          "html_url": "https://github.com/dzhng/jevgrep",
+          "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+          "language": "TypeScript",
+          "stars": 3210,
+          "forks": 245,
+          "issues": 10,
+          "created_at": "2026-09-26",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-sdk",
+            "claude-code",
+            "cli",
+            "code-search",
+            "codex"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/1329503?v=4"
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "name": "系统工具",
+      "icon": "💻",
+      "desc": "操作系统、系统工具与终端",
+      "repos": [
+        {
+          "name": "Filee",
+          "full_name": "KnifeLemon/Filee",
+          "html_url": "https://github.com/KnifeLemon/Filee",
+          "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+          "language": "C#",
+          "stars": 25846,
+          "forks": 1479,
+          "issues": 134,
+          "created_at": "2026-09-29",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "audio-converter",
+            "avalonia",
+            "batch-conversion",
+            "converter",
+            "csharp"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/13937016?v=4"
+        },
+        {
+          "name": "horizon",
+          "full_name": "horizon-rust/horizon",
+          "html_url": "https://github.com/horizon-rust/horizon",
+          "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+          "language": "Rust",
+          "stars": 8738,
+          "forks": 1419,
+          "issues": 1288,
+          "created_at": "2026-10-03",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "differential-testing",
+            "game-engine",
+            "gamedev",
+            "linux",
+            "minecraft"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/349008135?v=4"
+        },
+        {
+          "name": "coucou",
+          "full_name": "Louis-CFM/coucou",
+          "html_url": "https://github.com/Louis-CFM/coucou",
+          "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+          "language": "Swift",
+          "stars": 7130,
+          "forks": 1172,
+          "issues": 459,
+          "created_at": "2026-09-27",
+          "pushed_at": "2026-11-06",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "antigravity",
+            "claude",
+            "claude-code"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/72659375?v=4"
+        },
+        {
+          "name": "totk-pc-recomp",
+          "full_name": "valentderah/totk-pc-recomp",
+          "html_url": "https://github.com/valentderah/totk-pc-recomp",
+          "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+          "language": "C",
+          "stars": 6621,
+          "forks": 545,
+          "issues": 384,
+          "created_at": "2026-10-29",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "game",
+            "linux",
+            "port",
+            "recompilation",
+            "windows"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/41872026?v=4"
+        },
+        {
+          "name": "DigUp",
+          "full_name": "ARahim3/DigUp",
+          "html_url": "https://github.com/ARahim3/DigUp",
+          "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
+          "language": "Swift",
+          "stars": 6374,
+          "forks": 504,
+          "issues": 103,
+          "created_at": "2026-10-08",
+          "pushed_at": "2026-10-26",
+          "topics": [
+            "embeddinggemma",
+            "embeddings",
+            "file-search",
+            "linux",
+            "llama-cpp"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/41390319?v=4"
+        },
+        {
+          "name": "plexo",
+          "full_name": "anmolkapil/plexo",
+          "html_url": "https://github.com/anmolkapil/plexo",
+          "description": "Speed up downloads by combining multiple network connections in parallel",
+          "language": "TypeScript",
+          "stars": 5673,
+          "forks": 415,
+          "issues": 74,
+          "created_at": "2026-09-15",
+          "pushed_at": "2026-11-06",
+          "topics": [
+            "bandwidth-aggregation",
+            "cross-platform",
+            "desktop-app",
+            "downloader",
+            "downloadmanager"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/71038519?v=4"
+        },
+        {
+          "name": "nectarlink",
+          "full_name": "thtbee/nectarlink",
+          "html_url": "https://github.com/thtbee/nectarlink",
+          "description": "Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.",
+          "language": "Rust",
+          "stars": 3749,
+          "forks": 333,
+          "issues": 48,
+          "created_at": "2026-10-04",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "android",
+            "jetpack-compose",
+            "kde-connect-features",
+            "kotlin",
+            "linux"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/302257494?v=4"
+        },
+        {
+          "name": "nanoMuse",
+          "full_name": "nano-muse/nanoMuse",
+          "html_url": "https://github.com/nano-muse/nanoMuse",
+          "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+          "language": "Swift",
+          "stars": 3406,
+          "forks": 409,
+          "issues": 158,
+          "created_at": "2026-09-23",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agent-skills",
+            "ai-agent",
+            "android",
+            "computer-use",
+            "cross-device"
+          ],
+          "license": "GPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/332792686?v=4"
+        },
+        {
+          "name": "net-merge",
+          "full_name": "net-merge/net-merge",
+          "html_url": "https://github.com/net-merge/net-merge",
+          "description": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+          "language": "Go",
+          "stars": 3047,
+          "forks": 171,
+          "issues": 4,
+          "created_at": "2026-10-12",
+          "pushed_at": "2026-11-09",
+          "topics": [
+            "android",
+            "bandwidth-aggregation",
+            "downloader",
+            "golang",
+            "linux"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/347272816?v=4"
+        },
+        {
+          "name": "Octopus-SI-OS",
+          "full_name": "miuuyy/Octopus-SI-OS",
+          "html_url": "https://github.com/miuuyy/Octopus-SI-OS",
+          "description": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.",
+          "language": "Rust",
+          "stars": 757,
+          "forks": 84,
+          "issues": 3,
+          "created_at": "2026-10-09",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agent-framework",
+            "agentic-os",
+            "ai-agents",
+            "chatgpt",
+            "codex"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/147659719?v=4"
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "name": "生活日常",
+      "icon": "🏠",
+      "desc": "智能家居、健康、理财与生活",
+      "repos": [
+        {
+          "name": "AIHOT",
+          "full_name": "KKKKhazix/AIHOT",
+          "html_url": "https://github.com/KKKKhazix/AIHOT",
+          "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "language": "TypeScript",
+          "stars": 10373,
+          "forks": 2418,
+          "issues": 1,
+          "created_at": "2026-09-28",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai",
+            "chinese",
+            "content-curation",
+            "daily-digest",
+            "docker-compose"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4"
+        },
+        {
+          "name": "dossier",
+          "full_name": "AienTech/dossier",
+          "html_url": "https://github.com/AienTech/dossier",
+          "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
+          "language": "TypeScript",
+          "stars": 5006,
+          "forks": 1037,
+          "issues": 25,
+          "created_at": "2026-10-03",
+          "pushed_at": "2026-11-08",
+          "topics": [
+            "caprover",
+            "cover-letter",
+            "docker",
+            "job-application-tracker",
+            "job-search"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/2676700?v=4"
+        },
+        {
+          "name": "project-maya",
+          "full_name": "mw00/project-maya",
+          "html_url": "https://github.com/mw00/project-maya",
+          "description": "Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.",
+          "language": "C++",
+          "stars": 2792,
+          "forks": 390,
+          "issues": 154,
+          "created_at": "2026-10-06",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "anthropic-api",
+            "cuda",
+            "deepseek",
+            "deepseek-v4",
+            "gguf"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/14845178?v=4"
+        },
+        {
+          "name": "doory",
+          "full_name": "shaongitbd/doory",
+          "html_url": "https://github.com/shaongitbd/doory",
+          "description": "Open source canva alternative",
+          "language": "TypeScript",
+          "stars": 2676,
+          "forks": 248,
+          "issues": 14,
+          "created_at": "2026-10-10",
+          "pushed_at": "2026-11-09",
+          "topics": [
+            "canva-alternative",
+            "collaborative-editing",
+            "design-editor",
+            "design-tool",
+            "django"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/83664154?v=4"
+        },
+        {
+          "name": "ovis",
+          "full_name": "devswha/ovis",
+          "html_url": "https://github.com/devswha/ovis",
+          "description": "Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts",
+          "language": "TypeScript",
+          "stars": 2023,
+          "forks": 282,
+          "issues": 120,
+          "created_at": "2026-09-17",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agentic-coding",
+            "ai-agents",
+            "bun",
+            "claude-code",
+            "codex"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/25837994?v=4"
+        },
+        {
+          "name": "mailcheap",
+          "full_name": "marclou/mailcheap",
+          "html_url": "https://github.com/marclou/mailcheap",
+          "description": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
+          "language": "JavaScript",
+          "stars": 1677,
+          "forks": 422,
+          "issues": 15,
+          "created_at": "2026-10-10",
+          "pushed_at": "2026-11-06",
+          "topics": [
+            "ai-agents",
+            "amazon-ses",
+            "beehiiv-alternative",
+            "email",
+            "email-marketing"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/12645328?v=4"
+        },
+        {
+          "name": "cloudroom",
+          "full_name": "davidondrej/cloudroom",
+          "html_url": "https://github.com/davidondrej/cloudroom",
+          "description": "Cloud agents for any harness. Claude Code, Codex, Pi, and OpenCode run in isolated sandboxes, and live sessions move between your Mac and the cloud.",
+          "language": "TypeScript",
+          "stars": 1613,
+          "forks": 289,
+          "issues": 51,
+          "created_at": "2026-09-17",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agents",
+            "background-agents",
+            "claude",
+            "claude-code",
+            "claude-code-cli"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/131768515?v=4"
+        },
+        {
+          "name": "talorys",
+          "full_name": "rociiu/talorys",
+          "html_url": "https://github.com/rociiu/talorys",
+          "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+          "language": "TypeScript",
+          "stars": 1461,
+          "forks": 147,
+          "issues": 7,
+          "created_at": "2026-10-10",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "ai-agent",
+            "cloudflare",
+            "cloudflare-workers",
+            "durable-objects",
+            "personal-assistant"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/23930?v=4"
+        },
+        {
+          "name": "ollaya",
+          "full_name": "ollaya-dev/ollaya",
+          "html_url": "https://github.com/ollaya-dev/ollaya",
+          "description": "Jev-compatible API server for open decision models. Ollama for decision models: pull and serve 29 model families (Laya, pplx-decider, Clef, Winnow, coba...) locally or self-hosted behind /v1/systemone. The TypeSafe SDK works unchanged: set its base URL and pick an open model. CLI, desktop app, Docker, MCP server, public bench.",
+          "language": "Rust",
+          "stars": 1458,
+          "forks": 91,
+          "issues": 11,
+          "created_at": "2026-09-23",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "calibration",
+            "decision-model",
+            "decision-models",
+            "inference-server",
+            "jev"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/333103087?v=4"
+        },
+        {
+          "name": "neonplan3d",
+          "full_name": "Mastershort/neonplan3d",
+          "html_url": "https://github.com/Mastershort/neonplan3d",
+          "description": "The original 3D floor plan for Home Assistant: draw your home in the built-in editor and see and control lights, covers, climate, media, sensors and cameras live in neon 3D – panel and dashboard card, runs on old wall tablets too.",
+          "language": "TypeScript",
+          "stars": 1129,
+          "forks": 128,
+          "issues": 24,
+          "created_at": "2026-09-27",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "3d",
+            "3d-visualization",
+            "custom-card",
+            "dashboard",
+            "digital-twin"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/4759859?v=4"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI 应用",
+      "icon": "🤖",
+      "desc": "大模型、智能体与 AI 应用",
+      "repos": [
+        {
+          "name": "magpie",
+          "full_name": "yetone/magpie",
+          "html_url": "https://github.com/yetone/magpie",
+          "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "language": "Go",
+          "stars": 34589,
+          "forks": 3075,
+          "issues": 3789,
+          "created_at": "2026-09-23",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "claude-code",
+            "codex",
+            "deepseek",
+            "gemini-cli",
+            "llm"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/1206493?v=4"
+        },
+        {
+          "name": "jev-chat-jarvis",
+          "full_name": "jev-chat/jev-chat-jarvis",
+          "html_url": "https://github.com/jev-chat/jev-chat-jarvis",
+          "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+          "language": "Kotlin",
+          "stars": 8331,
+          "forks": 1329,
+          "issues": 33,
+          "created_at": "2026-09-21",
+          "pushed_at": "2026-11-05",
+          "topics": [
+            "accessibility-service",
+            "ai-assistant",
+            "android",
+            "chat-assistant",
+            "chat-copilot"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/332283779?v=4"
+        },
+        {
+          "name": "Mika",
+          "full_name": "wangzan101/Mika",
+          "html_url": "https://github.com/wangzan101/Mika",
+          "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+          "language": "Kotlin",
+          "stars": 8213,
+          "forks": 1874,
+          "issues": 134,
+          "created_at": "2026-10-29",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "accessibility",
+            "ai-agent",
+            "android",
+            "automation",
+            "jetpack-compose"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/102038245?v=4"
+        },
+        {
+          "name": "Locals",
+          "full_name": "Generated-Computers/Locals",
+          "html_url": "https://github.com/Generated-Computers/Locals",
+          "description": "Run many AI agents at once on your Mac, up to 3x faster.",
+          "language": "Python",
+          "stars": 646,
+          "forks": 43,
+          "issues": 8,
+          "created_at": "2026-10-12",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agents",
+            "apple-silicon",
+            "artificial-intelligence",
+            "coding-agents",
+            "inference-acceleration"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/340301219?v=4"
+        },
+        {
+          "name": "awesome-jev-live",
+          "full_name": "wh000wh000/awesome-jev-live",
+          "html_url": "https://github.com/wh000wh000/awesome-jev-live",
+          "description": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.",
+          "language": "Python",
+          "stars": 378,
+          "forks": 16,
+          "issues": 6,
+          "created_at": "2026-09-18",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agents",
+            "artificial-intelligence",
+            "awesome",
+            "awesome-jev",
+            "awesome-list"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/16302138?v=4"
+        },
+        {
+          "name": "awesome-jev",
+          "full_name": "kraayenjon/awesome-jev",
+          "html_url": "https://github.com/kraayenjon/awesome-jev",
+          "description": "A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.",
+          "language": null,
+          "stars": 207,
+          "forks": 48,
+          "issues": 21,
+          "created_at": "2026-09-18",
+          "pushed_at": "2026-09-27",
+          "topics": [
+            "agents",
+            "ai",
+            "ai-agents",
+            "api",
+            "artificial-intelligence"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/121937557?v=4"
+        },
+        {
+          "name": "mianstack",
+          "full_name": "didilili/mianstack",
+          "html_url": "https://github.com/didilili/mianstack",
+          "description": "🚀 面栈 MianStack｜程序员面试题库天花板！Java、Python、数据库、算法、大模型、AI Agent、RAG 一栈备齐。真实面经关联高频考点，按公司、岗位定向备考；图文题解、精华专题、项目源码拆解，全系标配。面试官出题，面栈出招！免费开源，持续更新。",
+          "language": "JavaScript",
+          "stars": 160,
+          "forks": 9,
+          "issues": 2,
+          "created_at": "2026-11-02",
+          "pushed_at": "2026-11-07",
+          "topics": [
+            "agent",
+            "agentic-ai",
+            "ai-agent",
+            "ai-engineering",
+            "ai-interview"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/49889928?v=4"
+        },
+        {
+          "name": "local-code-community",
+          "full_name": "drawthingsai/local-code-community",
+          "html_url": "https://github.com/drawthingsai/local-code-community",
+          "description": " Source code of Local Code, a private AI agent for Mac, iPad and iPhone. Runs DeepSeek 4.1 on device, with Python, Node.js and a shell built into the app.",
+          "language": "C",
+          "stars": 132,
+          "forks": 10,
+          "issues": 3,
+          "created_at": "2026-10-21",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "ai",
+            "ai-agent",
+            "apple-silicon",
+            "artificial-intelligence",
+            "coding-agent"
+          ],
+          "license": "GPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/133620361?v=4"
+        },
+        {
+          "name": "PAKGOV-RAG-project",
+          "full_name": "salikhussain71-code/PAKGOV-RAG-project",
+          "html_url": "https://github.com/salikhussain71-code/PAKGOV-RAG-project",
+          "description": "Research project on bilingual Urdu-English retrieval-augmented generation for Pakistani government and legal documents, with OCR, hybrid retrieval, citation grounding, and evaluation.",
+          "language": "Python",
+          "stars": 130,
+          "forks": 7,
+          "issues": 2,
+          "created_at": "2026-09-17",
+          "pushed_at": "2026-11-07",
+          "topics": [
+            "artificial-intelligence",
+            "information-retrieval",
+            "legal-nlp",
+            "low-resource-languages",
+            "nlp"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/271632164?v=4"
+        },
+        {
+          "name": "Recursia",
+          "full_name": "cocacola-lab/Recursia",
+          "html_url": "https://github.com/cocacola-lab/Recursia",
+          "description": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills.",
+          "language": "Python",
+          "stars": 114,
+          "forks": 1,
+          "issues": 0,
+          "created_at": "2026-10-12",
+          "pushed_at": "2026-10-27",
+          "topics": [
+            "agentic-robotics",
+            "artificial-intelligence",
+            "embodied-intelligence",
+            "embodied-rsi",
+            "recursive-self-improvement"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/125438281?v=4"
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "name": "学习教育",
+      "icon": "📚",
+      "desc": "教程、课程与学习资源",
+      "repos": [
+        {
+          "name": "cn-math-taxonomy",
+          "full_name": "xiaoyang111222/cn-math-taxonomy",
+          "html_url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+          "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+          "language": "Python",
+          "stars": 7650,
+          "forks": 2025,
+          "issues": 32,
+          "created_at": "2026-10-18",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "chinese",
+            "curriculum",
+            "diagnostic",
+            "edtech",
+            "education"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/79557224?v=4"
+        },
+        {
+          "name": "Papermorph",
+          "full_name": "DozenTwelve/Papermorph",
+          "html_url": "https://github.com/DozenTwelve/Papermorph",
+          "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+          "language": "JavaScript",
+          "stars": 1572,
+          "forks": 202,
+          "issues": 3,
+          "created_at": "2026-10-03",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "ai-agents",
+            "ai-education",
+            "animation",
+            "claude",
+            "claude-code"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/26440117?v=4"
+        },
+        {
+          "name": "Study-Mate",
+          "full_name": "Miaotofu01/Study-Mate",
+          "html_url": "https://github.com/Miaotofu01/Study-Mate",
+          "description": "你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门科目",
+          "language": "JavaScript",
+          "stars": 1425,
+          "forks": 70,
+          "issues": 36,
+          "created_at": "2026-09-17",
+          "pushed_at": "2026-11-06",
+          "topics": [
+            "ai-tutor",
+            "dsh-plugin",
+            "education",
+            "learning-agents",
+            "self-directed-learning"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/196646782?v=4"
+        },
+        {
+          "name": "StudyOnTV",
+          "full_name": "chadyi/StudyOnTV",
+          "html_url": "https://github.com/chadyi/StudyOnTV",
+          "description": "StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.",
+          "language": "JavaScript",
+          "stars": 1399,
+          "forks": 304,
+          "issues": 31,
+          "created_at": "2026-11-01",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "android",
+            "android-tv",
+            "children",
+            "digital-wellbeing",
+            "edtech"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/87369532?v=4"
+        },
+        {
+          "name": "esp-labs-web",
+          "full_name": "agharsallah/esp-labs-web",
+          "html_url": "https://github.com/agharsallah/esp-labs-web",
+          "description": "The ESP32-S3 bench guide as a React app: live pinout, lessons with interactive simulators, a code reader for the esp-labs firmware, and the bench log. In 11 languages.",
+          "language": "TypeScript",
+          "stars": 809,
+          "forks": 119,
+          "issues": 2,
+          "created_at": "2026-10-21",
+          "pushed_at": "2026-11-09",
+          "topics": [
+            "education",
+            "electronics",
+            "embedded",
+            "esp32",
+            "esp32-s3"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/17379925?v=4"
+        },
+        {
+          "name": "claudemy",
+          "full_name": "assafkip/claudemy",
+          "html_url": "https://github.com/assafkip/claudemy",
+          "description": "Claudemy: an open-source alternative to Udemy and Coursera. Give Claude a topic, it researches the web and builds a course of 2-minute audio lessons with cited sources. A free Claude Code skill.",
+          "language": "Python",
+          "stars": 679,
+          "forks": 79,
+          "issues": 5,
+          "created_at": "2026-10-14",
+          "pushed_at": "2026-10-29",
+          "topics": [
+            "ai-course-generator",
+            "ai-education",
+            "anthropic",
+            "audio-lessons",
+            "claude"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/1494043?v=4"
+        },
+        {
+          "name": "frametell",
+          "full_name": "sitor-ai/frametell",
+          "html_url": "https://github.com/sitor-ai/frametell",
+          "description": "Frametell: turn your ideas and material into vivid explainer videos with an AI director agent. Local-first, any model.",
+          "language": "JavaScript",
+          "stars": 495,
+          "forks": 97,
+          "issues": 7,
+          "created_at": "2026-10-10",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agent",
+            "ai-video",
+            "edtech",
+            "education",
+            "electron"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/340895372?v=4"
+        },
+        {
+          "name": "librecalculator",
+          "full_name": "tonyzedginidze/librecalculator",
+          "html_url": "https://github.com/tonyzedginidze/librecalculator",
+          "description": "The universe in numbers. Free, open-source calculators for everything countable.",
+          "language": "TypeScript",
+          "stars": 321,
+          "forks": 27,
+          "issues": 0,
+          "created_at": "2026-10-11",
+          "pushed_at": "2026-11-06",
+          "topics": [
+            "astro",
+            "bun",
+            "calculator",
+            "calculators",
+            "education"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/119799979?v=4"
+        },
+        {
+          "name": "AI-Research-Guide",
+          "full_name": "Takamatsu-Hikaru/AI-Research-Guide",
+          "html_url": "https://github.com/Takamatsu-Hikaru/AI-Research-Guide",
+          "description": "AI 科研入门指南：大学选择、科研 60 问、入门项目、学习路线与论文卡片。A bilingual guide to getting started in AI research.",
+          "language": "JavaScript",
+          "stars": 222,
+          "forks": 11,
+          "issues": 0,
+          "created_at": "2026-10-05",
+          "pushed_at": "2026-11-01",
+          "topics": [
+            "ai",
+            "chinese",
+            "education",
+            "getting-started",
+            "machine-learning"
+          ],
+          "license": null,
+          "avatar": "https://avatars.githubusercontent.com/u/243897778?v=4"
+        },
+        {
+          "name": "ari",
+          "full_name": "nichochar/ari",
+          "html_url": "https://github.com/nichochar/ari",
+          "description": "learn stuff with pen + paper + AI",
+          "language": "TypeScript",
+          "stars": 219,
+          "forks": 20,
+          "issues": 0,
+          "created_at": "2026-10-18",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "ai-tutor",
+            "education",
+            "local-first"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/1666947?v=4"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "媒体娱乐",
+      "icon": "🎬",
+      "desc": "视频、音乐、直播与游戏",
+      "repos": [
+        {
+          "name": "filmcraft",
+          "full_name": "storytold/filmcraft",
+          "html_url": "https://github.com/storytold/filmcraft",
+          "description": "FilmCraft: An open-source, nonlinear video editor written from scratch in pure Rust",
+          "language": "Rust",
+          "stars": 18047,
+          "forks": 7369,
+          "issues": 2124,
+          "created_at": "2026-09-30",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "art",
+            "rust",
+            "video",
+            "video-editing",
+            "video-editor"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4"
+        },
+        {
+          "name": "huashu-art-motion",
+          "full_name": "alchaincyf/huashu-art-motion",
+          "html_url": "https://github.com/alchaincyf/huashu-art-motion",
+          "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+          "language": "JavaScript",
+          "stars": 6739,
+          "forks": 666,
+          "issues": 9,
+          "created_at": "2026-10-06",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "agent-skills",
+            "animation",
+            "claude-code",
+            "claude-code-skills",
+            "claude-skills"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4"
+        },
+        {
+          "name": "onetake",
+          "full_name": "feitangyuan/onetake",
+          "html_url": "https://github.com/feitangyuan/onetake",
+          "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. Product launch films and feature demos, made with a coding agent.",
+          "language": "Python",
+          "stars": 4031,
+          "forks": 281,
+          "issues": 10,
+          "created_at": "2026-09-26",
+          "pushed_at": "2026-11-05",
+          "topics": [
+            "agent-skill",
+            "animation",
+            "canvas",
+            "claude-skill",
+            "launch-video"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/251547459?v=4"
+        },
+        {
+          "name": "huashu-motion",
+          "full_name": "alchaincyf/huashu-motion",
+          "html_url": "https://github.com/alchaincyf/huashu-motion",
+          "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+          "language": "JavaScript",
+          "stars": 2638,
+          "forks": 263,
+          "issues": 4,
+          "created_at": "2026-10-18",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "agent-skills",
+            "animation",
+            "claude-code",
+            "claude-code-skills",
+            "claude-skills"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4"
+        },
+        {
+          "name": "awesome-claude-video-skills",
+          "full_name": "zhuyansen/awesome-claude-video-skills",
+          "html_url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+          "description": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.",
+          "language": null,
+          "stars": 1904,
+          "forks": 190,
+          "issues": 14,
+          "created_at": "2026-09-27",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "agent-skills",
+            "awesome-list",
+            "claude-code",
+            "claude-skills",
+            "codex"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/24306647?v=4"
+        },
+        {
+          "name": "motionmaxxing",
+          "full_name": "Tejashmakwana/motionmaxxing",
+          "html_url": "https://github.com/Tejashmakwana/motionmaxxing",
+          "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
+          "language": "JavaScript",
+          "stars": 1531,
+          "forks": 155,
+          "issues": 1,
+          "created_at": "2026-10-06",
+          "pushed_at": "2026-10-06",
+          "topics": [
+            "agent-skills",
+            "ai",
+            "claude-code",
+            "gsap",
+            "hyperframes"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4"
+        },
+        {
+          "name": "mortiflix-oss",
+          "full_name": "GTKottman/mortiflix-oss",
+          "html_url": "https://github.com/GTKottman/mortiflix-oss",
+          "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+          "language": "JavaScript",
+          "stars": 696,
+          "forks": 32,
+          "issues": 0,
+          "created_at": "2026-10-05",
+          "pushed_at": "2026-11-06",
+          "topics": [
+            "ai-agents",
+            "claude",
+            "claude-code",
+            "harness",
+            "motion-design"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/259927371?v=4"
+        },
+        {
+          "name": "motion-graphics-skills",
+          "full_name": "charlie947/motion-graphics-skills",
+          "html_url": "https://github.com/charlie947/motion-graphics-skills",
+          "description": "13 Claude Code skills for launch-grade motion graphics. Every frame is code. No After Effects, no video generator.",
+          "language": "Shell",
+          "stars": 643,
+          "forks": 82,
+          "issues": 2,
+          "created_at": "2026-09-26",
+          "pushed_at": "2026-10-11",
+          "topics": [
+            "agent-skills",
+            "ai-marketing",
+            "animation",
+            "claude",
+            "claude-code"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/255382850?v=4"
+        },
+        {
+          "name": "design-agent",
+          "full_name": "langchain-ai/design-agent",
+          "html_url": "https://github.com/langchain-ai/design-agent",
+          "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+          "language": "JavaScript",
+          "stars": 610,
+          "forks": 84,
+          "issues": 1,
+          "created_at": "2026-10-18",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agent",
+            "agents",
+            "ai-agent",
+            "deepagents",
+            "design"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/126733545?v=4"
+        },
+        {
+          "name": "vvv",
+          "full_name": "actionow-ai/vvv",
+          "html_url": "https://github.com/actionow-ai/vvv",
+          "description": "一次构建视频模板，多次复用：给 Claude Code、Codex 等 25+ 个 Agent 的开源可编辑婚礼视频模板与 Agent Skill。Build a video template once, reuse it across coding agents.",
+          "language": "Python",
+          "stars": 536,
+          "forks": 155,
+          "issues": 0,
+          "created_at": "2026-10-22",
+          "pushed_at": "2026-10-30",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "claude-code",
+            "codex",
+            "mcp"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/255481024?v=4"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "安全隐私",
+      "icon": "🔒",
+      "desc": "安全、隐私与加密工具",
+      "repos": [
+        {
+          "name": "artex-global",
+          "full_name": "jiwoochris/artex-global",
+          "html_url": "https://github.com/jiwoochris/artex-global",
+          "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+          "language": "Go",
+          "stars": 3072,
+          "forks": 2799,
+          "issues": 5,
+          "created_at": "2026-10-03",
+          "pushed_at": "2026-11-09",
+          "topics": [
+            "ai-agent",
+            "autonomous-agents",
+            "blue-team",
+            "cybersecurity",
+            "detection-engineering"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/83687471?v=4"
+        },
+        {
+          "name": "awesome-reverse-engineering",
+          "full_name": "morluto/awesome-reverse-engineering",
+          "html_url": "https://github.com/morluto/awesome-reverse-engineering",
+          "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+          "language": "Python",
+          "stars": 2051,
+          "forks": 449,
+          "issues": 3,
+          "created_at": "2026-10-09",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "awesome",
+            "awesome-list",
+            "binary-analysis"
+          ],
+          "license": "CC0-1.0",
+          "avatar": "https://avatars.githubusercontent.com/u/76467478?v=4"
+        },
+        {
+          "name": "openqodex",
+          "full_name": "openqodex/openqodex",
+          "html_url": "https://github.com/openqodex/openqodex",
+          "description": "Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before you push, in Claude Code, Codex, Cursor and Cline. No account or key of its own.",
+          "language": "TypeScript",
+          "stars": 1082,
+          "forks": 80,
+          "issues": 107,
+          "created_at": "2026-10-02",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "ai-code-review",
+            "claude-code",
+            "claude-code-plugin"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/336816094?v=4"
+        },
+        {
+          "name": "Full-Chain-Sentinel-System",
+          "full_name": "zgsfsec/Full-Chain-Sentinel-System",
+          "html_url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+          "description": "全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
+          "language": "TypeScript",
+          "stars": 872,
+          "forks": 256,
+          "issues": 1,
+          "created_at": "2026-10-16",
+          "pushed_at": "2026-11-09",
+          "topics": [
+            "agent",
+            "blue-team",
+            "cybersecurity",
+            "cybersecurity-tools",
+            "pentest-tool"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/88515720?v=4"
+        },
+        {
+          "name": "VulnHunter",
+          "full_name": "nealbridges/VulnHunter",
+          "html_url": "https://github.com/nealbridges/VulnHunter",
+          "description": "Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executable PoCs, and fixes them test-first. A maintained fork of Capital One's VulnHunter, rebuilt for any agent harness.",
+          "language": "Python",
+          "stars": 810,
+          "forks": 123,
+          "issues": 1,
+          "created_at": "2026-09-22",
+          "pushed_at": "2026-11-03",
+          "topics": [
+            "agent-harness",
+            "agentic-ai",
+            "appsec",
+            "exploit-verification",
+            "poc"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/101598311?v=4"
+        },
+        {
+          "name": "opentrap",
+          "full_name": "opentrap/opentrap",
+          "html_url": "https://github.com/opentrap/opentrap",
+          "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
+          "language": "Java",
+          "stars": 703,
+          "forks": 14,
+          "issues": 0,
+          "created_at": "2026-10-19",
+          "pushed_at": "2026-11-08",
+          "topics": [
+            "application-security",
+            "appsec",
+            "bug-bounty",
+            "burp-alternative",
+            "burp-suite"
+          ],
+          "license": "AGPL-3.0",
+          "avatar": "https://avatars.githubusercontent.com/u/344606698?v=4"
+        },
+        {
+          "name": "agent-security",
+          "full_name": "solongate/agent-security",
+          "html_url": "https://github.com/solongate/agent-security",
+          "description": "Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, and audit actions on-device.",
+          "language": "Go",
+          "stars": 681,
+          "forks": 104,
+          "issues": 156,
+          "created_at": "2026-09-27",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "agent-security",
+            "ai-agent-security",
+            "ai-agents",
+            "ai-security-tool",
+            "ai-security-tools"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/298001799?v=4"
+        },
+        {
+          "name": "AVault",
+          "full_name": "arpanjot-coding/AVault",
+          "html_url": "https://github.com/arpanjot-coding/AVault",
+          "description": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup.",
+          "language": "Kotlin",
+          "stars": 622,
+          "forks": 25,
+          "issues": 0,
+          "created_at": "2026-10-31",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "aes-256",
+            "android",
+            "android-14",
+            "android-15",
+            "android-16"
+          ],
+          "license": "NOASSERTION",
+          "avatar": "https://avatars.githubusercontent.com/u/50767931?v=4"
+        },
+        {
+          "name": "box",
+          "full_name": "strands-agents/box",
+          "html_url": "https://github.com/strands-agents/box",
+          "description": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon and Linux.",
+          "language": "Rust",
+          "stars": 531,
+          "forks": 46,
+          "issues": 117,
+          "created_at": "2026-10-02",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "agentic-ai",
+            "agents",
+            "ai",
+            "ai-agents",
+            "ai-safety"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/209155962?v=4"
+        },
+        {
+          "name": "npmscan-action",
+          "full_name": "NPMscan/npmscan-action",
+          "html_url": "https://github.com/NPMscan/npmscan-action",
+          "description": "Catch risky npm dependency changes before they merge.",
+          "language": "TypeScript",
+          "stars": 509,
+          "forks": 0,
+          "issues": 2,
+          "created_at": "2026-10-02",
+          "pushed_at": "2026-11-09",
+          "topics": [
+            "dependency-analysis",
+            "devsecops",
+            "github-actions",
+            "malware",
+            "npm"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/336907155?v=4"
+        }
+      ]
+    }
+  ]
+}
