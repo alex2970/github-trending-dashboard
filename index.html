@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 热门项目日报</title>
+<style>
+  :root {
+    --bg: #f6f8fa; --card: #ffffff; --text: #1f2328; --muted: #656d76;
+    --border: #d0d7de; --accent: #0969da; --star: #9a6700; --chip: #ddf4ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.5; }
+  header { background: #24292f; color: #fff; padding: 28px 20px 22px; }
+  header .wrap { max-width: 1100px; margin: 0 auto; }
+  header h1 { font-size: 26px; letter-spacing: .5px; }
+  header p { color: #c9d1d9; margin-top: 6px; font-size: 14px; }
+  header .meta { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  header select, header input {
+    background: #fff; color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: 7px 10px; font-size: 14px; outline: none; }
+  header input { width: 220px; }
+  header select:focus, header input:focus { border-color: var(--accent); }
+  .updated { color: #8b949e; font-size: 13px; }
+  nav { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+  nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; gap: 4px; overflow-x: auto; padding: 0 12px; }
+  nav button { border: none; background: none; padding: 12px 12px; font-size: 15px; cursor: pointer;
+    color: var(--muted); border-bottom: 2px solid transparent; white-space: nowrap; }
+  nav button:hover { color: var(--text); }
+  nav button.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  main { max-width: 1100px; margin: 0 auto; padding: 20px; }
+  .cat-head { margin: 6px 0 16px; }
+  .cat-head h2 { font-size: 20px; }
+  .cat-head p { color: var(--muted); font-size: 14px; margin-top: 2px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; }
+  .card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(9,105,218,.08); }
+  .card .rank { font-size: 12px; color: var(--muted); }
+  .card h3 { font-size: 17px; }
+  .card h3 a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  .card h3 a:hover { text-decoration: underline; }
+  .card .desc { font-size: 14px; color: #333; flex: 1; }
+  .card .meta { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .card .meta .star { color: var(--star); }
+  .card .meta .lang::before { content: "● "; font-size: 11px; }
+  .topics { display: flex; gap: 6px; flex-wrap: wrap; }
+  .topics span { background: var(--chip); color: #0969da; font-size: 12px;
+    padding: 2px 8px; border-radius: 20px; }
+  .empty { color: var(--muted); text-align: center; padding: 60px 0; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 8px 20px 32px; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--accent); }
+  @media (max-width: 600px) { header input { width: 100%; } header .meta { flex-direction: column; align-items: stretch; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>🔥 GitHub 热门项目日报</h1>
+    <p>每天自动抓取 GitHub 上各分类的热门新项目，每类 10 个，点卡片标题直达仓库。</p>
+    <div class="meta">
+      <label>日期 <select id="dateSelect"></select></label>
+      <input id="search" type="search" placeholder="搜索项目名 / 简介 / 语言…">
+      <span class="updated" id="updated"></span>
+    </div>
+  </div>
+</header>
+<nav><div class="wrap" id="tabs"></div></nav>
+<main>
+  <div class="cat-head"><h2 id="catTitle"></h2><p id="catDesc"></p></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">没有匹配的项目，换个关键词试试。</div>
+</main>
+<footer>
+  数据来源：GitHub Search API · 每日 10:00（北京时间）自动更新 · 历史数据按日期保存，可在上方切换查看 ·
+  项目主页：<a href="https://github.com/alex2970/github-trending-dashboard" target="_blank" rel="noopener">alex2970/github-trending-dashboard</a>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
