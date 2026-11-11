@@ -38,6 +38,16 @@
     padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; }
   .card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(9,105,218,.08); }
   .card .rank { font-size: 12px; color: var(--muted); }
+  .card .rank-1 { color: #b8860b; font-weight: 700; }
+  .card .rank-2 { color: #6e7781; font-weight: 700; }
+  .card .rank-3 { color: #9a6700; font-weight: 700; }
+  .champ { background: linear-gradient(135deg, #fff8e1, #fff); border: 1px solid #f0c94d;
+    border-radius: 10px; padding: 14px 18px; margin-bottom: 16px; }
+  .champ .champ-label { font-size: 13px; color: var(--star); font-weight: 600; }
+  .champ a { font-size: 18px; color: var(--accent); text-decoration: none; font-weight: 600; word-break: break-all; }
+  .champ a:hover { text-decoration: underline; }
+  .champ .champ-stars { font-size: 16px; color: var(--star); font-weight: 700; margin-left: 8px; white-space: nowrap; }
+  .champ .champ-desc { font-size: 14px; color: #333; margin-top: 4px; }
   .card h3 { font-size: 17px; }
   .card h3 a { color: var(--accent); text-decoration: none; word-break: break-all; }
   .card h3 a:hover { text-decoration: underline; }
@@ -69,6 +79,7 @@
 <nav><div class="wrap" id="tabs"></div></nav>
 <main>
   <div class="cat-head"><h2 id="catTitle"></h2><p id="catDesc"></p></div>
+  <div class="champ" id="champ" style="display:none"></div>
   <div class="grid" id="grid"></div>
   <div class="empty" id="empty" style="display:none">没有匹配的项目，换个关键词试试。</div>
 </main>
