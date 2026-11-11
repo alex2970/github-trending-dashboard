@@ -1,4 +1,5 @@
 /* GitHub 热门项目日报：读 data/index.json 拿日期清单，读 data/<日期>.json 渲染。 */
+
 (function () {
   var dateSelect = document.getElementById('dateSelect');
   var searchInput = document.getElementById('search');
@@ -42,19 +43,24 @@
     var q = searchInput.value.trim().toLowerCase();
     var list = cat.repos.filter(function (r) {
       if (!q) return true;
-      return (r.full_name + ' ' + (r.description || '') + ' ' + (r.language || '')).toLowerCase().indexOf(q) !== -1;
+      return (r.full_name + ' ' + (r.description || '') + ' ' + (r.description_zh || '') + ' ' + (r.language || '')).toLowerCase().indexOf(q) !== -1;
     });
 
     gridEl.innerHTML = '';
     emptyEl.style.display = list.length ? 'none' : 'block';
+
     list.forEach(function (r, i) {
       var card = document.createElement('div');
       card.className = 'card';
       var topics = (r.topics || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
+      var zh = r.description_zh || '';
+      var en = r.description || '';
+      var descHtml = '<div class="desc">' + esc(zh || en || '（暂无简介）') + '</div>' +
+        ((zh && en && zh !== en) ? '<div style="font-size:12px;color:var(--muted);margin-top:2px">' + esc(en) + '</div>' : '');
       card.innerHTML =
         '<div class="rank">#' + (i + 1) + ' · 创建于 ' + esc(r.created_at) + '</div>' +
         '<h3><a href="' + esc(r.html_url) + '" target="_blank" rel="noopener">' + esc(r.full_name) + '</a></h3>' +
-        '<div class="desc">' + esc(r.description || '（暂无简介）') + '</div>' +
+        descHtml +
         '<div class="topics">' + topics + '</div>' +
         '<div class="meta">' +
           '<span class="star">★ ' + fmt(r.stars) + '</span>' +
@@ -63,6 +69,7 @@
           '<span>最近更新 ' + esc(r.pushed_at) + '</span>' +
           (r.license ? '<span>' + esc(r.license) + '</span>' : '') +
         '</div>';
+
       gridEl.appendChild(card);
     });
   }
