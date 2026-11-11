@@ -15,8 +15,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch:
+  # 单作业：抓取、提交、部署都在同一台 runner 上做，
+  # 打包时工作区里已经有刚抓到的 data/，不会出现“部署的包比数据早一天”的问题。
+  update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,15 +42,6 @@ jobs:
             git commit -m "chore: 更新 $(date -u -d '+8 hours' +%Y-%m-%d) 热门数据"
             git push
           fi
-
-  deploy:
-    needs: fetch
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
