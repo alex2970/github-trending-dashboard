@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "fetched_at": "2026-11-11 23:39 CST",
+  "date": "2026-11-12",
+  "fetched_at": "2026-11-12 00:03 CST",
   "categories": [
     {
       "id": "all",
@@ -14,7 +14,7 @@
           "html_url": "https://github.com/Gathin23/cleanyourtv",
           "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
           "language": "Python",
-          "stars": 56334,
+          "stars": 56338,
           "forks": 7248,
           "issues": 185,
           "created_at": "2026-10-17",
@@ -27,7 +27,8 @@
             "apple-tv"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/94786511?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/94786511?v=4",
+          "description_zh": "通过 Wi-Fi 消除任何 Android 或 Google TV 的膨胀，并获得 Apple TV 风格的家。"
         },
         {
           "name": "craft-anything",
@@ -35,14 +36,15 @@
           "html_url": "https://github.com/storytold/craft-anything",
           "description": "Craft Anything: understand how any software works, and craft your own.",
           "language": "Rust",
-          "stars": 28008,
-          "forks": 5675,
-          "issues": 307,
+          "stars": 28035,
+          "forks": 5680,
+          "issues": 309,
           "created_at": "2026-10-31",
           "pushed_at": "2026-11-11",
           "topics": [],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+          "description_zh": "制作任何东西：了解任何软件的工作原理，并制作自己的软件。"
         },
         {
           "name": "DeepInfer",
@@ -50,14 +52,15 @@
           "html_url": "https://github.com/deepseek-ai/DeepInfer",
           "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
           "language": "Python",
-          "stars": 25854,
+          "stars": 25855,
           "forks": 3169,
-          "issues": 247,
+          "issues": 248,
           "created_at": "2026-10-16",
           "pushed_at": "2026-11-03",
           "topics": [],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
+          "description_zh": "DeepInfer：用于 DeepSeek 模型的高性能、大规模推理框架"
         },
         {
           "name": "dsh-superagent-prototype",
@@ -65,14 +68,15 @@
           "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
           "description": "Towards a More Autonomous Agent System",
           "language": "TypeScript",
-          "stars": 22437,
-          "forks": 2721,
+          "stars": 22440,
+          "forks": 2722,
           "issues": 0,
           "created_at": "2026-10-31",
           "pushed_at": "2026-11-03",
           "topics": [],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
+          "description_zh": "迈向更加自主的代理系统"
         },
         {
           "name": "dsh-Go",
@@ -80,9 +84,9 @@
           "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
           "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
           "language": "Dart",
-          "stars": 19549,
-          "forks": 864,
-          "issues": 560,
+          "stars": 19565,
+          "forks": 868,
+          "issues": 563,
           "created_at": "2026-10-25",
           "pushed_at": "2026-11-11",
           "topics": [
@@ -93,7 +97,8 @@
             "deepseek"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/268149062?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/268149062?v=4",
+          "description_zh": "dsh-go — DeepSeek Harness 安装进口袋：手机运行，也可以遥控您的电脑。"
         },
         {
           "name": "gpu-unlock",
@@ -101,29 +106,15 @@
           "html_url": "https://github.com/Zagitta/gpu-unlock",
           "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
           "language": "C",
-          "stars": 18684,
-          "forks": 1913,
+          "stars": 18685,
+          "forks": 1914,
           "issues": 130,
           "created_at": "2026-10-18",
           "pushed_at": "2026-10-29",
           "topics": [],
           "license": null,
-          "avatar": "https://avatars.githubusercontent.com/u/865977?v=4"
-        },
-        {
-          "name": "nxnative",
-          "full_name": "seedds/nxnative",
-          "html_url": "https://github.com/seedds/nxnative",
-          "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "language": "Python",
-          "stars": 14729,
-          "forks": 2633,
-          "issues": 1093,
-          "created_at": "2026-10-13",
-          "pushed_at": "2026-11-11",
-          "topics": [],
-          "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/3463322?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/865977?v=4",
+          "description_zh": "您的 GeForce 以一半的速度运行 AI。这修复了 20/30/40 系列卡的问题。高达 2× FP16 / BF16 / TF32 张量吞吐量"
         },
         {
           "name": "unslop",
@@ -131,14 +122,15 @@
           "html_url": "https://github.com/heydamir/unslop",
           "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
           "language": "JavaScript",
-          "stars": 14346,
-          "forks": 795,
+          "stars": 14362,
+          "forks": 797,
           "issues": 6,
           "created_at": "2026-10-29",
           "pushed_at": "2026-11-08",
           "topics": [],
           "license": "CC-BY-4.0",
-          "avatar": "https://avatars.githubusercontent.com/u/97800728?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/97800728?v=4",
+          "description_zh": "克劳德 (Claude) 的一项技能，可将 Vivicoded、AI 外观的 UI 转变为设计好的界面"
         },
         {
           "name": "aerial-tv",
@@ -146,14 +138,15 @@
           "html_url": "https://github.com/pengchujin/aerial-tv",
           "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
           "language": "Kotlin",
-          "stars": 11260,
+          "stars": 11261,
           "forks": 966,
-          "issues": 389,
+          "issues": 390,
           "created_at": "2026-10-20",
           "pushed_at": "2026-11-11",
           "topics": [],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/16513318?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/16513318?v=4",
+          "description_zh": "给国产电视的一块干净桌面：参照tvOS设计的开源Android电视桌面，无广告，开机自动接管。适用于小米、TCL和其他中国市场电视的tvOS风格启动器。"
         },
         {
           "name": "learnharness",
@@ -161,14 +154,37 @@
           "html_url": "https://github.com/amosblomqvist/learnharness",
           "description": "Agent harness for learning difficult things.",
           "language": "TypeScript",
-          "stars": 8597,
+          "stars": 8601,
           "forks": 1151,
-          "issues": 478,
+          "issues": 479,
           "created_at": "2026-10-16",
           "pushed_at": "2026-11-11",
           "topics": [],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/255718537?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/255718537?v=4",
+          "description_zh": "用于学习困难事物的代理工具。"
+        },
+        {
+          "name": "openidea",
+          "full_name": "l0ng-ai/openidea",
+          "html_url": "https://github.com/l0ng-ai/openidea",
+          "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+          "language": "TypeScript",
+          "stars": 8548,
+          "forks": 750,
+          "issues": 166,
+          "created_at": "2026-10-21",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "code-editor",
+            "cross-platform",
+            "dap",
+            "database-client",
+            "debugger"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/24760907?v=4",
+          "description_zh": "你知道的 IDE，是用 Rust 重建的。 IntelliJ IDEA 风格的键盘映射、工具窗口和搜索在快速本机应用程序中随处可见：编辑器、代码洞察、调试器、Git、终端、数据库和 HTTP 客户端，支持 60 多种语言。"
         }
       ]
     },
@@ -184,7 +200,7 @@
           "html_url": "https://github.com/microsoft/TokenEconomizer",
           "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
           "language": "Python",
-          "stars": 5713,
+          "stars": 5714,
           "forks": 358,
           "issues": 32,
           "created_at": "2026-10-13",
@@ -197,7 +213,8 @@
             "anthropic"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+          "description_zh": "编码代理的经验驱动黑盒成本控制"
         },
         {
           "name": "TwinDesk",
@@ -205,7 +222,7 @@
           "html_url": "https://github.com/InukaAsith/TwinDesk",
           "description": " All your computers and your phone/iPhone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux , Android, Web and ios / ipados . Free and open source. No account, no cloud, and no shared network needed.",
           "language": "JavaScript",
-          "stars": 3926,
+          "stars": 3927,
           "forks": 304,
           "issues": 32,
           "created_at": "2026-10-14",
@@ -218,7 +235,8 @@
             "file-sharing"
           ],
           "license": "GPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/70461117?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/70461117?v=4",
+          "description_zh": "您所有的电脑和手机/iPhone，就像一张桌子一样工作。屏幕、应用程序、文件、剪贴板、通话、文本、通知、鼠标和键盘，在 Mac、Windows、Linux、Android、Web 和 ios/ipados 之间共享。免费且开源。无需帐户、无需云，也无需共享网络。"
         },
         {
           "name": "oink",
@@ -226,8 +244,8 @@
           "html_url": "https://github.com/oinkvm/oink",
           "description": "Your computers, working as one. Share keyboard, mouse, trackpad, clipboard, drag and drop and audio across Macs and PCs.",
           "language": "Rust",
-          "stars": 1321,
-          "forks": 110,
+          "stars": 1325,
+          "forks": 111,
           "issues": 23,
           "created_at": "2026-10-19",
           "pushed_at": "2026-11-11",
@@ -239,7 +257,8 @@
             "drag-and-drop"
           ],
           "license": "GPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/341654504?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/341654504?v=4",
+          "description_zh": "您的计算机，一体工作。在 Mac 和 PC 之间共享键盘、鼠标、触控板、剪贴板、拖放和音频。"
         },
         {
           "name": "kanzo",
@@ -260,7 +279,8 @@
             "coding-agents"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/100081325?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/100081325?v=4",
+          "description_zh": "供人类和代理使用的自托管、可共享的看板。一个 4.7 MB 二进制文件，5 MB RAM，每个代理回复 10 到 60 个令牌，在 3 毫秒内启动，零设置。"
         },
         {
           "name": "WinShun",
@@ -281,28 +301,8 @@
             "everything"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/53141949?v=4"
-        },
-        {
-          "name": "PecoFence",
-          "full_name": "DayuanJiang/PecoFence",
-          "html_url": "https://github.com/DayuanJiang/PecoFence",
-          "description": "A free, open-source Stardock Fences alternative for Windows 11 and 10. Glass fences, live folders, tabs, Peek. Rust, a few MB of RAM at rest, 11 languages, portable.",
-          "language": "Rust",
-          "stars": 891,
-          "forks": 51,
-          "issues": 25,
-          "created_at": "2026-09-13",
-          "pushed_at": "2026-11-10",
-          "topics": [
-            "desktop",
-            "desktop-organizer",
-            "direct2d",
-            "fences",
-            "productivity"
-          ],
-          "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/34411969?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/53141949?v=4",
+          "description_zh": "Win顺：免费开源的Windows快速搜索启动器。双击Ctrl，拼音秒搜文件、Word/Excel/PDF、剪贴板历史（代替Win+V）、对话框搜索、任务栏搜索、插件、全文AI助手MCP。免费的Windows搜索启动器：拼音文件搜索、全文搜索、剪贴板历史、MCP服务器。一切/清单替代方案。"
         },
         {
           "name": "atticus-mac",
@@ -323,7 +323,8 @@
             "open-source"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/123905329?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/123905329?v=4",
+          "description_zh": "适用于 Mac 的快速、免费语音助手。没有 API 密钥。记住您并了解您的捷径。按住 ⌃⌥空格键并讲话。"
         },
         {
           "name": "xiaotang-daozai",
@@ -344,7 +345,8 @@
             "rust"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/284593714?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/284593714?v=4",
+          "description_zh": "岛仔道哉：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。"
         },
         {
           "name": "betterwispr",
@@ -365,7 +367,8 @@
             "meeting-notes"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/320128903?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/320128903?v=4",
+          "description_zh": "适用于 macOS 的免费、开源、本地优先的听写应用程序。按住快捷键，说话，文本就会输入到任何应用程序中。通过 Whisper、Parakeet 和 Apple 语音进行设备上语音转文本。私有、离线、开源 Wispr Flow 替代方案。"
         },
         {
           "name": "no-tipe-releases",
@@ -386,7 +389,30 @@
             "productivity"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/176955033?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/176955033?v=4",
+          "description_zh": "适用于 macOS 和 Windows 的免费桌面听写。通过本地或云语音识别在您的应用程序中朗读消息、电子邮件和笔记。"
+        },
+        {
+          "name": "rooms",
+          "full_name": "saragordic/rooms",
+          "html_url": "https://github.com/saragordic/rooms",
+          "description": "Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away.",
+          "language": "Swift",
+          "stars": 416,
+          "forks": 18,
+          "issues": 8,
+          "created_at": "2026-09-23",
+          "pushed_at": "2026-09-26",
+          "topics": [
+            "macos",
+            "macos-app",
+            "menubar",
+            "menubar-app",
+            "productivity"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/329245707?v=4",
+          "description_zh": "在 Mac 上的项目之间切换。每个项目都是一个房间：它的窗户都布置好了，只有一条捷径可走。"
         }
       ]
     },
@@ -402,8 +428,8 @@
           "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
           "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
           "language": "JavaScript",
-          "stars": 69779,
-          "forks": 1891,
+          "stars": 69803,
+          "forks": 1892,
           "issues": 168,
           "created_at": "2026-09-24",
           "pushed_at": "2026-11-11",
@@ -415,49 +441,8 @@
             "dsh"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/245557608?v=4"
-        },
-        {
-          "name": "elephant-goldfish-model",
-          "full_name": "google/elephant-goldfish-model",
-          "html_url": "https://github.com/google/elephant-goldfish-model",
-          "description": "Open-source plugin for designing and reviewing software with agents",
-          "language": "Python",
-          "stars": 17469,
-          "forks": 1303,
-          "issues": 107,
-          "created_at": "2026-09-13",
-          "pushed_at": "2026-11-11",
-          "topics": [
-            "agent-skills",
-            "ai-agents",
-            "antigravity",
-            "claude-code",
-            "claude-code-plugin"
-          ],
-          "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/1342004?v=4"
-        },
-        {
-          "name": "openidea",
-          "full_name": "l0ng-ai/openidea",
-          "html_url": "https://github.com/l0ng-ai/openidea",
-          "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
-          "language": "TypeScript",
-          "stars": 8547,
-          "forks": 750,
-          "issues": 165,
-          "created_at": "2026-10-21",
-          "pushed_at": "2026-11-11",
-          "topics": [
-            "code-editor",
-            "cross-platform",
-            "dap",
-            "database-client",
-            "debugger"
-          ],
-          "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/24760907?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/245557608?v=4",
+          "description_zh": "在 dsh 里装上这个插件就可以，无需登录、注册或填写 API Key，可以使用包括 DeepSeek V4.1 Flash、Kimi K3 前沿模型——完全免费，不用争。 你所要做的就是在 dsh 中安装这个插件：无需登录、无需注册、无需 API 密钥 — 前沿模型就在那里，DeepSeek V4.1 Flash 和 Kimi K3 其中之一。完全免费，没有使用上限。"
         },
         {
           "name": "answer-me-with-html",
@@ -478,7 +463,8 @@
             "claude-skill"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/41177312?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/41177312?v=4",
+          "description_zh": "用 HTML 回答我——这是一种代理技能，可以用您可以实际阅读的单页 HTML 来回答难题。 让 AI Agent 使用一页 HTML 回答复杂的问题。"
         },
         {
           "name": "RemoveMacAI",
@@ -499,7 +485,8 @@
             "debloat"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/119071446?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/119071446?v=4",
+          "description_zh": "关闭 Apple Intelligence 并删除 Mac 上的模型。分析、广告和弹出窗口的可选调整。本机应用程序和 CLI，并且每个更改都可以撤消。"
         },
         {
           "name": "shaders",
@@ -520,7 +507,8 @@
             "shaders"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/265144305?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/265144305?v=4",
+          "description_zh": "适用于 React、Vue、Svelte、Solid、JS 和 Framer 的 WebGPU 组件"
         },
         {
           "name": "agent-autoloop",
@@ -541,7 +529,8 @@
             "codex"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
+          "description_zh": "让你的命令行代理在后台自己接活、自己搜寻到底；平时不烦你，遇到不准的事才发对应找你拍板。"
         },
         {
           "name": "floorplan",
@@ -549,7 +538,7 @@
           "html_url": "https://github.com/haydenschmitty/floorplan",
           "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
           "language": "JavaScript",
-          "stars": 3552,
+          "stars": 3559,
           "forks": 282,
           "issues": 61,
           "created_at": "2026-10-27",
@@ -562,7 +551,8 @@
             "claude-code-plugin"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/348570593?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/348570593?v=4",
+          "description_zh": "了解您的应用程序实际上如何组合在一起。由 Claude 或 Codex 绘制的交互式、简明英语的代码库地图。"
         },
         {
           "name": "NOIR",
@@ -570,7 +560,7 @@
           "html_url": "https://github.com/Verlintas/NOIR",
           "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
           "language": "Kotlin",
-          "stars": 3273,
+          "stars": 3274,
           "forks": 302,
           "issues": 2,
           "created_at": "2026-10-31",
@@ -583,7 +573,8 @@
             "android-tools"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/310443301?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/310443301?v=4",
+          "description_zh": "手机隐私审计：用adb扫出Android应用的权限、上报端点与数据流向，并给出可回滚的惩罚。桌面Android泄漏审计：权限、端点、数据流、可逆修复。"
         },
         {
           "name": "jevgrep",
@@ -604,7 +595,52 @@
             "codex"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/1329503?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/1329503?v=4",
+          "description_zh": "通过询问代码的作用来查找代码。用于编码代理的 CLI，使用 Jev 发现相关文件和源上下文。"
+        },
+        {
+          "name": "hatchzip",
+          "full_name": "xevrion/hatchzip",
+          "html_url": "https://github.com/xevrion/hatchzip",
+          "description": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI.",
+          "language": "Rust",
+          "stars": 2829,
+          "forks": 96,
+          "issues": 11,
+          "created_at": "2026-10-21",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "7z",
+            "7zip",
+            "archive",
+            "archive-extractor",
+            "cli"
+          ],
+          "license": "Apache-2.0",
+          "avatar": "https://avatars.githubusercontent.com/u/77008538?v=4",
+          "description_zh": "HatchZip 是一款适用于 Windows、macOS 和 Linux 的免费开源存档提取器，可就地提取 ZIP、7z、RAR、tar 和分割存档，因此仅需要用于提取文件的可用空间。桌面应用程序和 CLI。"
+        },
+        {
+          "name": "terminal-mac",
+          "full_name": "govijr/terminal-mac",
+          "html_url": "https://github.com/govijr/terminal-mac",
+          "description": "Entire MacOS running in your terminal.",
+          "language": "Swift",
+          "stars": 2592,
+          "forks": 179,
+          "issues": 5,
+          "created_at": "2026-11-03",
+          "pushed_at": "2026-11-10",
+          "topics": [
+            "cli",
+            "gui",
+            "macos",
+            "shell",
+            "swift"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/111436589?v=4",
+          "description_zh": "整个 MacOS 在您的终端中运行。"
         }
       ]
     },
@@ -620,8 +656,8 @@
           "html_url": "https://github.com/KnifeLemon/Filee",
           "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
           "language": "C#",
-          "stars": 25850,
-          "forks": 1482,
+          "stars": 25858,
+          "forks": 1483,
           "issues": 134,
           "created_at": "2026-09-29",
           "pushed_at": "2026-11-11",
@@ -633,7 +669,8 @@
             "csharp"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/13937016?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/13937016?v=4",
+          "description_zh": "免费的开源文件转换器。通过拖放功能离线转换 263 格式 — 图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和档案。无需上传，无需 Office。"
         },
         {
           "name": "horizon",
@@ -641,9 +678,9 @@
           "html_url": "https://github.com/horizon-rust/horizon",
           "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
           "language": "Rust",
-          "stars": 8739,
-          "forks": 1419,
-          "issues": 1287,
+          "stars": 8745,
+          "forks": 1421,
+          "issues": 1289,
           "created_at": "2026-10-03",
           "pushed_at": "2026-11-11",
           "topics": [
@@ -654,7 +691,8 @@
             "minecraft"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/349008135?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/349008135?v=4",
+          "description_zh": "Minecraft：Java 版 26.3 用 Rust 从头开始​​重写，并使用 281 个差分线束与原版进行了检查。使用 Horizo​​n 启动器获取它。"
         },
         {
           "name": "coucou",
@@ -662,7 +700,7 @@
           "html_url": "https://github.com/Louis-CFM/coucou",
           "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
           "language": "Swift",
-          "stars": 7130,
+          "stars": 7131,
           "forks": 1172,
           "issues": 459,
           "created_at": "2026-09-27",
@@ -675,7 +713,8 @@
             "claude-code"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/72659375?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/72659375?v=4",
+          "description_zh": "Mac 和 iPhone 上的小朋友，可以监视您的 AI 编码代理：Claude Code、Codex、Cursor、Gemini CLI、Antigravity 等。从缺口或锁定屏幕批准。"
         },
         {
           "name": "totk-pc-recomp",
@@ -683,9 +722,9 @@
           "html_url": "https://github.com/valentderah/totk-pc-recomp",
           "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
           "language": "C",
-          "stars": 6627,
-          "forks": 545,
-          "issues": 386,
+          "stars": 6630,
+          "forks": 546,
+          "issues": 381,
           "created_at": "2026-10-29",
           "pushed_at": "2026-11-11",
           "topics": [
@@ -696,7 +735,8 @@
             "windows"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/41872026?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/41872026?v=4",
+          "description_zh": "使用 Vulkan 渲染器将《塞尔达传说：王国之泪》静态重新编译到本机 Windows 和 Linux x86-64。不包括游戏文件。"
         },
         {
           "name": "DigUp",
@@ -717,7 +757,8 @@
             "llama-cpp"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/41390319?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/41390319?v=4",
+          "description_zh": "通过文件中的内容搜索您的计算机：照片、PDF、文档、录音、视频和代码。 Mac、Windows 和 Linux 设备上，基于 Google DeepMind 的 EmbeddingGemma 2 构建。"
         },
         {
           "name": "plexo",
@@ -738,7 +779,8 @@
             "downloadmanager"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/71038519?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/71038519?v=4",
+          "description_zh": "通过并行组合多个网络连接来加快下载速度"
         },
         {
           "name": "nectarlink",
@@ -746,7 +788,7 @@
           "html_url": "https://github.com/thtbee/nectarlink",
           "description": "Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.",
           "language": "Rust",
-          "stars": 3751,
+          "stars": 3752,
           "forks": 333,
           "issues": 49,
           "created_at": "2026-10-04",
@@ -759,7 +801,8 @@
             "linux"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/302257494?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/302257494?v=4",
+          "description_zh": "您的 Android 手机和 PC 合二为一。 Windows 和 Linux。本地优先、端到端加密、无账户。"
         },
         {
           "name": "nanoMuse",
@@ -767,7 +810,7 @@
           "html_url": "https://github.com/nano-muse/nanoMuse",
           "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
           "language": "Swift",
-          "stars": 3406,
+          "stars": 3407,
           "forks": 409,
           "issues": 158,
           "created_at": "2026-09-23",
@@ -780,7 +823,8 @@
             "cross-device"
           ],
           "license": "GPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/332792686?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/332792686?v=4",
+          "description_zh": "nanoMuse：适用于您拥有的每台设备的开源个人代理。一个具有自己的名称和外观的代理可以做一些事情，在应用程序关闭时继续工作，记住您，并在您无法撤消的任何事情之前进行询问。在 Android、iPhone 和 iPad、Windows / macOS / Linux 以及浏览器中；你的手机屏幕和电脑就像它的手。"
         },
         {
           "name": "net-merge",
@@ -801,7 +845,8 @@
             "linux"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/347272816?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/347272816?v=4",
+          "description_zh": "在 Windows、macOS、Linux 和 Android 上同时使用所有互联网连接：通过 Wi-Fi、以太网、移动数据和电话网络实现每个连接的负载平衡"
         },
         {
           "name": "Octopus-SI-OS",
@@ -822,7 +867,8 @@
             "codex"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/147659719?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/147659719?v=4",
+          "description_zh": "一个自我进化的代理操作系统。一种新的代理执行架构，基于操作系统原理构建，利用该架构作为通向超级智能的途径。"
         }
       ]
     },
@@ -838,7 +884,7 @@
           "html_url": "https://github.com/KKKKhazix/AIHOT",
           "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
           "language": "TypeScript",
-          "stars": 10376,
+          "stars": 10377,
           "forks": 2419,
           "issues": 1,
           "created_at": "2026-09-28",
@@ -851,7 +897,8 @@
             "docker-compose"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
+          "description_zh": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。"
         },
         {
           "name": "dossier",
@@ -872,7 +919,8 @@
             "job-search"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/2676700?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/2676700?v=4",
+          "description_zh": "一个自托管的求职和简历生成器应用程序，可以根据您的个人资料编写量身定制的简历和求职信。"
         },
         {
           "name": "project-maya",
@@ -880,7 +928,7 @@
           "html_url": "https://github.com/mw00/project-maya",
           "description": "Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.",
           "language": "C++",
-          "stars": 2793,
+          "stars": 2794,
           "forks": 390,
           "issues": 154,
           "created_at": "2026-10-06",
@@ -893,7 +941,8 @@
             "gguf"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/14845178?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/14845178?v=4",
+          "description_zh": "在您自己的 GPU 上运行 GLM-5.3 (744B)、GLM-5.3-Flash (321B)、DeepSeek-V4.1-Flash (748B) 和 MiniMax-M3.1-Flash (428B) - 一个引擎、一个仪表板、OpenAI 和 Anthropic 兼容的 API。"
         },
         {
           "name": "doory",
@@ -914,7 +963,8 @@
             "django"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/83664154?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/83664154?v=4",
+          "description_zh": "开源canva替代品"
         },
         {
           "name": "ovis",
@@ -924,7 +974,7 @@
           "language": "TypeScript",
           "stars": 2023,
           "forks": 282,
-          "issues": 119,
+          "issues": 120,
           "created_at": "2026-09-17",
           "pushed_at": "2026-11-11",
           "topics": [
@@ -935,7 +985,8 @@
             "codex"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/25837994?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/25837994?v=4",
+          "description_zh": "Ovis（以前称为 herdr Web UI）：herdr 的免费开源浏览器和手机客户端。用于 Claude Code、Codex 和每个代理窗格的聊天和实时终端、通过 SSH 的远程 PC、网络推送警报"
         },
         {
           "name": "mailcheap",
@@ -956,7 +1007,8 @@
             "email-marketing"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/12645328?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/12645328?v=4",
+          "description_zh": "时事通讯，您为发送的电子邮件付费，而不是为休眠订阅者付费，价格仅为 beehiiv 等的一小部分。开源：自行托管，或使用 mailcheap.ai。"
         },
         {
           "name": "cloudroom",
@@ -977,7 +1029,8 @@
             "claude-code-cli"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/131768515?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/131768515?v=4",
+          "description_zh": "适用于任何线束的云代理。 Claude Code、Codex、Pi 和 OpenCode 在隔离的沙箱中运行，实时会话在 Mac 和云之间移动。"
         },
         {
           "name": "talorys",
@@ -998,7 +1051,8 @@
             "personal-assistant"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/23930?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/23930?v=4",
+          "description_zh": "您自己的 Cloudflare 帐户中的个人 AI 代理。聊天、记忆、任务、笔记和计划提醒，通过一个命令进行部署：npx create-talorys@latest。免费套餐友好、单用户、无遥测。"
         },
         {
           "name": "ollaya",
@@ -1019,7 +1073,8 @@
             "jev"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/333103087?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/333103087?v=4",
+          "description_zh": "用于开放决策模型的 Jev 兼容 API 服务器。用于决策模型的 Ollama：在本地拉取并服务 29 个模型系列（Laya、pplx-decider、Clef、Winnow、coba...）或在 /v1/systemone 后面自托管。 TypeSafe SDK 的工作原理不变：设置其基本 URL 并选择一个开放模型。 CLI、桌面应用程序、Docker、MCP 服务器、公共工作台。"
         },
         {
           "name": "neonplan3d",
@@ -1027,7 +1082,7 @@
           "html_url": "https://github.com/Mastershort/neonplan3d",
           "description": "The original 3D floor plan for Home Assistant: draw your home in the built-in editor and see and control lights, covers, climate, media, sensors and cameras live in neon 3D – panel and dashboard card, runs on old wall tablets too.",
           "language": "TypeScript",
-          "stars": 1130,
+          "stars": 1131,
           "forks": 128,
           "issues": 24,
           "created_at": "2026-09-27",
@@ -1040,7 +1095,8 @@
             "digital-twin"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/4759859?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/4759859?v=4",
+          "description_zh": "Home Assistant 的原始 3D 平面图：在内置编辑器中绘制您的家，并在霓虹灯 3D 中查看和控制灯光、盖子、气候、媒体、传感器和摄像头 - 面板和仪表板卡，也可以在旧壁式平板电脑上运行。"
         }
       ]
     },
@@ -1056,8 +1112,8 @@
           "html_url": "https://github.com/yetone/magpie",
           "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
           "language": "Go",
-          "stars": 34595,
-          "forks": 3075,
+          "stars": 34606,
+          "forks": 3076,
           "issues": 3791,
           "created_at": "2026-09-23",
           "pushed_at": "2026-11-11",
@@ -1069,7 +1125,8 @@
             "llm"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/1206493?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/1206493?v=4",
+          "description_zh": "每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。"
         },
         {
           "name": "jev-chat-jarvis",
@@ -1090,7 +1147,8 @@
             "chat-copilot"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/332283779?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/332283779?v=4",
+          "description_zh": "聊天决策助手：在您回复之前，Jev 会阅读聊天内容，判断意图和风险，然后一键填写您填写的草稿回复。你按发送。 Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。"
         },
         {
           "name": "Mika",
@@ -1098,9 +1156,9 @@
           "html_url": "https://github.com/wangzan101/Mika",
           "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
           "language": "Kotlin",
-          "stars": 8217,
+          "stars": 8220,
           "forks": 1874,
-          "issues": 135,
+          "issues": 136,
           "created_at": "2026-10-29",
           "pushed_at": "2026-11-11",
           "topics": [
@@ -1111,7 +1169,30 @@
             "jetpack-compose"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/102038245?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/102038245?v=4",
+          "description_zh": "适用于 Android 的设备上 AI 代理，可运行应用程序和网络来为您完成工作。"
+        },
+        {
+          "name": "esp32-iphone-agent",
+          "full_name": "onehumanbeing/esp32-iphone-agent",
+          "html_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+          "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+          "language": "Swift",
+          "stars": 4844,
+          "forks": 660,
+          "issues": 23,
+          "created_at": "2026-10-11",
+          "pushed_at": "2026-11-11",
+          "topics": [
+            "ai-agent",
+            "airplay",
+            "automation",
+            "computer-use",
+            "dsh-plugin"
+          ],
+          "license": "MIT",
+          "avatar": "https://avatars.githubusercontent.com/u/20528382?v=4",
+          "description_zh": "让 AI 模型使用配备 7 美元 ESP32 的真实 iPhone：AirPlay 眼睛、USB HID 手、任何 OpenAI 兼容的视觉模型。没有Mac，没有开发者帐户，没有越狱。"
         },
         {
           "name": "Locals",
@@ -1132,7 +1213,8 @@
             "inference-acceleration"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/340301219?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/340301219?v=4",
+          "description_zh": "在 Mac 上同时运行多个 AI 代理，速度最高可提高 3 倍。"
         },
         {
           "name": "awesome-jev-live",
@@ -1153,7 +1235,8 @@
             "awesome-list"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/16302138?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/16302138?v=4",
+          "description_zh": "Awesome Jev — TypeSafe System One 的证据分级索引：SDK、MCP 工具、代理、应用程序和开放模型。 20 种语言，每 2 小时重建一次。"
         },
         {
           "name": "awesome-jev",
@@ -1174,7 +1257,8 @@
             "artificial-intelligence"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/121937557?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/121937557?v=4",
+          "description_zh": "Jev 用例、项目、SDK 和资源的精选列表。 Jev 是 TypeSafe AI 的 System One 模型，用于在软件中进行快速、类型化的决策——具有校准概率的选择、得分和 Noul。"
         },
         {
           "name": "mianstack",
@@ -1195,7 +1279,8 @@
             "ai-interview"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/49889928?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/49889928?v=4",
+          "description_zh": "🚀面栈MianStack｜人力资源面试题库模板！Java、Python、数据库、算法、大模型、AI代理、RAG一栈备齐。真实面经关联高频考点，按公司、纵向定向备考；图文题解、精华专题、项目源码拆解，全系标配。面试官出题，面栈出招！免费开源，持续更新。"
         },
         {
           "name": "local-code-community",
@@ -1216,7 +1301,8 @@
             "coding-agent"
           ],
           "license": "GPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/133620361?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/133620361?v=4",
+          "description_zh": "适用于 Mac、iPad 和 iPhone 的私人人工智能代理 Local Code 的源代码。在设备上运行 DeepSeek 4.1，并在应用程序中内置 Python、Node.js 和 shell。"
         },
         {
           "name": "PAKGOV-RAG-project",
@@ -1237,28 +1323,8 @@
             "nlp"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/271632164?v=4"
-        },
-        {
-          "name": "Recursia",
-          "full_name": "cocacola-lab/Recursia",
-          "html_url": "https://github.com/cocacola-lab/Recursia",
-          "description": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills.",
-          "language": "Python",
-          "stars": 114,
-          "forks": 1,
-          "issues": 0,
-          "created_at": "2026-10-12",
-          "pushed_at": "2026-10-27",
-          "topics": [
-            "agentic-robotics",
-            "artificial-intelligence",
-            "embodied-intelligence",
-            "embodied-rsi",
-            "recursive-self-improvement"
-          ],
-          "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/125438281?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/271632164?v=4",
+          "description_zh": "巴基斯坦政府和法律文件的乌尔都语-英语双语检索增强生成研究项目，包括 OCR、混合检索、引文基础和评估。"
         }
       ]
     },
@@ -1274,8 +1340,8 @@
           "html_url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
           "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
           "language": "Python",
-          "stars": 7652,
-          "forks": 2025,
+          "stars": 7654,
+          "forks": 2026,
           "issues": 32,
           "created_at": "2026-10-18",
           "pushed_at": "2026-11-11",
@@ -1287,7 +1353,8 @@
             "education"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/79557224?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/79557224?v=4",
+          "description_zh": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644个知识点、2403条先修边、6723道题，横向课标，附六个前置诊断。"
         },
         {
           "name": "Papermorph",
@@ -1308,7 +1375,8 @@
             "claude-code"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/26440117?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/26440117?v=4",
+          "description_zh": "一种人工智能技能，可将书籍转变为动画、叙事、交互式网络体验"
         },
         {
           "name": "Study-Mate",
@@ -1316,8 +1384,8 @@
           "html_url": "https://github.com/Miaotofu01/Study-Mate",
           "description": "你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门科目",
           "language": "JavaScript",
-          "stars": 1425,
-          "forks": 70,
+          "stars": 1426,
+          "forks": 71,
           "issues": 36,
           "created_at": "2026-09-17",
           "pushed_at": "2026-11-06",
@@ -1329,7 +1397,8 @@
             "self-directed-learning"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/196646782?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/196646782?v=4",
+          "description_zh": "你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门视力"
         },
         {
           "name": "StudyOnTV",
@@ -1337,8 +1406,8 @@
           "html_url": "https://github.com/chadyi/StudyOnTV",
           "description": "StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.",
           "language": "JavaScript",
-          "stars": 1400,
-          "forks": 304,
+          "stars": 1402,
+          "forks": 305,
           "issues": 31,
           "created_at": "2026-11-01",
           "pushed_at": "2026-11-11",
@@ -1350,7 +1419,8 @@
             "edtech"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/87369532?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/87369532?v=4",
+          "description_zh": "StudyOnTV (Tiledaoti TV) — 开源 Android TV 应用程序，孩子们可以通过回答问题来解锁屏幕时间。完全在电视上运行：无需服务器，无需帐户。家长扫描二维码并通过局域网管理问题。先学习一下。稍后观看。"
         },
         {
           "name": "esp-labs-web",
@@ -1371,7 +1441,8 @@
             "esp32-s3"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/17379925?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/17379925?v=4",
+          "description_zh": "作为 React 应用程序的 ESP32-S3 工作台指南：实时引脚分配、交互式模拟器课程、esp-labs 固件的代码阅读器以及工作台日志。 11 种语言。"
         },
         {
           "name": "claudemy",
@@ -1392,7 +1463,8 @@
             "claude"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/1494043?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/1494043?v=4",
+          "description_zh": "Claudemy：Udemy 和 Coursera 的开源替代品。给 Claude 一个主题，它会研究网络并构建一个包含引用来源的 2 分钟音频课程。免费的克劳德代码技能。"
         },
         {
           "name": "frametell",
@@ -1413,7 +1485,8 @@
             "electron"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/340895372?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/340895372?v=4",
+          "description_zh": "Frametell：通过 AI 导演代理将您的想法和材料转化为生动的讲解视频。本地优先，任何模型。"
         },
         {
           "name": "librecalculator",
@@ -1434,7 +1507,8 @@
             "education"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/119799979?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/119799979?v=4",
+          "description_zh": "宇宙由数字组成。免费的开源计算器，适用于所有可数的事物。"
         },
         {
           "name": "AI-Research-Guide",
@@ -1455,7 +1529,8 @@
             "machine-learning"
           ],
           "license": null,
-          "avatar": "https://avatars.githubusercontent.com/u/243897778?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/243897778?v=4",
+          "description_zh": "AI科研入门指南：选择大学、科研60问、入门项目、学习路线与论文对接。人工智能研究入门的双语指南。"
         },
         {
           "name": "ari",
@@ -1474,7 +1549,8 @@
             "local-first"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/1666947?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/1666947?v=4",
+          "description_zh": "用笔+纸+AI学习东西"
         }
       ]
     },
@@ -1491,8 +1567,8 @@
           "description": "FilmCraft: An open-source, nonlinear video editor written from scratch in pure Rust",
           "language": "Rust",
           "stars": 18047,
-          "forks": 7369,
-          "issues": 2124,
+          "forks": 7370,
+          "issues": 2123,
           "created_at": "2026-09-30",
           "pushed_at": "2026-11-11",
           "topics": [
@@ -1503,7 +1579,8 @@
             "video-editor"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+          "description_zh": "FilmCraft：一款用纯 Rust 从头开始​​编写的开源非线性视频编辑器"
         },
         {
           "name": "huashu-art-motion",
@@ -1524,7 +1601,8 @@
             "claude-skills"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
+          "description_zh": "艺术动画技巧：35种艺术风格、9种解说语言，用代码让绘画动起来。"
         },
         {
           "name": "onetake",
@@ -1545,7 +1623,8 @@
             "launch-video"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/251547459?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/251547459?v=4",
+          "description_zh": "永远不会切到下一张幻灯片的动态电影：每一个节拍都源于前一个节拍，一个连续的摄像机，由神谕测量的连续性。使用编码代理制作的产品发布影片和功能演示。"
         },
         {
           "name": "huashu-motion",
@@ -1566,7 +1645,8 @@
             "claude-skills"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
+          "description_zh": "让您的代理商一键直出商业级产品宣传片：会作曲，能指着画面改。由您的编码代理商制作的商业级产品宣传片 — 指向画面进行更改。"
         },
         {
           "name": "awesome-claude-video-skills",
@@ -1574,7 +1654,7 @@
           "html_url": "https://github.com/zhuyansen/awesome-claude-video-skills",
           "description": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.",
           "language": null,
-          "stars": 1904,
+          "stars": 1905,
           "forks": 190,
           "issues": 14,
           "created_at": "2026-09-27",
@@ -1587,7 +1667,8 @@
             "codex"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/24306647?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/24306647?v=4",
+          "description_zh": "开源技能和工具包，可让 Claude Code、Codex 和其他编码代理制作视频。按类型划分 180 个存储库，每个存储库都进行了安全分级。英文/中文。"
         },
         {
           "name": "motionmaxxing",
@@ -1608,7 +1689,8 @@
             "hyperframes"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4",
+          "description_zh": "动态图形的外观最大化。一种代理技能，可将 AI 倾斜视频变成看起来由动作设计师制作的电影。"
         },
         {
           "name": "mortiflix-oss",
@@ -1629,7 +1711,8 @@
             "motion-design"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/259927371?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/259927371?v=4",
+          "description_zh": "在您自己的机器上的动作设计工作室：克劳德一步步制作视频，您批准每个阶段。带上您自己的 Claude 代码或 API 密钥。"
         },
         {
           "name": "motion-graphics-skills",
@@ -1637,7 +1720,7 @@
           "html_url": "https://github.com/charlie947/motion-graphics-skills",
           "description": "13 Claude Code skills for launch-grade motion graphics. Every frame is code. No After Effects, no video generator.",
           "language": "Shell",
-          "stars": 643,
+          "stars": 644,
           "forks": 82,
           "issues": 2,
           "created_at": "2026-09-26",
@@ -1650,7 +1733,8 @@
             "claude-code"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/255382850?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/255382850?v=4",
+          "description_zh": "13 个用于启动级动态图形的 Claude Code 技能。每一帧都是代码。没有 After Effects，没有视频生成器。"
         },
         {
           "name": "design-agent",
@@ -1671,7 +1755,8 @@
             "design"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/126733545?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
+          "description_zh": "开源设计代理：基于 Deep Agents 构建的来自聊天线程的品牌剧照、套牌、图表、图表和动态图形。"
         },
         {
           "name": "vvv",
@@ -1692,7 +1777,8 @@
             "mcp"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/255481024?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/255481024?v=4",
+          "description_zh": "一次构建视频模板，多次复用：给 Claude Code、Codex 等 25+ 个代理的开源可编辑婚礼视频模板与代理技能。构建一次视频模板，在编码代理之间重复使用。"
         }
       ]
     },
@@ -1708,8 +1794,8 @@
           "html_url": "https://github.com/jiwoochris/artex-global",
           "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
           "language": "Go",
-          "stars": 3072,
-          "forks": 2799,
+          "stars": 3074,
+          "forks": 2801,
           "issues": 5,
           "created_at": "2026-10-03",
           "pushed_at": "2026-11-09",
@@ -1721,7 +1807,8 @@
             "detection-engineering"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/83687471?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/83687471?v=4",
+          "description_zh": "ARTEX 全球版——LLM 多代理自主渗透测试框架。默认英语，可切换为韩语/中文/西班牙语/日语。仅供授权、防御和检测用途。 （上游：Autumn-27/ARTEX、AGPL-3.0）"
         },
         {
           "name": "awesome-reverse-engineering",
@@ -1742,7 +1829,8 @@
             "binary-analysis"
           ],
           "license": "CC0-1.0",
-          "avatar": "https://avatars.githubusercontent.com/u/76467478?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
+          "description_zh": "针对二进制文件、应用程序、固件、格式和协议的精选逆向工程工具和学习资源。"
         },
         {
           "name": "openqodex",
@@ -1750,7 +1838,7 @@
           "html_url": "https://github.com/openqodex/openqodex",
           "description": "Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before you push, in Claude Code, Codex, Cursor and Cline. No account or key of its own.",
           "language": "TypeScript",
-          "stars": 1082,
+          "stars": 1083,
           "forks": 80,
           "issues": 107,
           "created_at": "2026-10-02",
@@ -1763,7 +1851,8 @@
             "claude-code-plugin"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/336816094?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/336816094?v=4",
+          "description_zh": "用于编码代理的开源人工智能代码审查。在您推送之前，会有一名单独的审阅者检查您的代理在 Claude Code、Codex、Cursor 和 Cline 中写入的每项更改。没有自己的帐户或密钥。"
         },
         {
           "name": "Full-Chain-Sentinel-System",
@@ -1784,7 +1873,8 @@
             "pentest-tool"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/88515720?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/88515720?v=4",
+          "description_zh": "全链哨兵，是集Web渗透、安卓App安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测广泛的网络安全代理，用于安全服务交付自动化辅助，禁止用于非法用途。"
         },
         {
           "name": "VulnHunter",
@@ -1805,7 +1895,8 @@
             "poc"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/101598311?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/101598311?v=4",
+          "description_zh": "代理人工智能安全扫描器可以像对手一样寻找可利用的漏洞，用可执行的 PoC 来证明它们，并首先通过测试修复它们。 Capital One 的 VulnHunter 的维护分支，针对任何代理工具进行了重建。"
         },
         {
           "name": "opentrap",
@@ -1826,7 +1917,8 @@
             "burp-suite"
           ],
           "license": "AGPL-3.0",
-          "avatar": "https://avatars.githubusercontent.com/u/344606698?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/344606698?v=4",
+          "description_zh": "Burp Suite 的免费开源替代品：拦截代理和 Web 应用程序安全测试套件，带有 Repeater、Intruder、Collaborator 和内置 OWASP ZAP 扫描仪。 Linux，AGPL-3.0。"
         },
         {
           "name": "agent-security",
@@ -1847,7 +1939,8 @@
             "ai-security-tools"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/298001799?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/298001799?v=4",
+          "description_zh": "用于 AI 编码代理的本地优先开源安全网关。在设备上执行工具调用策略、检测机密并审核操作。"
         },
         {
           "name": "AVault",
@@ -1868,7 +1961,8 @@
             "android-16"
           ],
           "license": "NOASSERTION",
-          "avatar": "https://avatars.githubusercontent.com/u/50767931?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/50767931?v=4",
+          "description_zh": "AVault - 通话录音（无需 Root）|适用于 Android 12-16+ 的隐私第一、硬件加密的音频库。通过 Shizuku 使用 AES-256-GCM、生物识别和自动清理进行无根通话录音。"
         },
         {
           "name": "box",
@@ -1889,7 +1983,8 @@
             "ai-safety"
           ],
           "license": "Apache-2.0",
-          "avatar": "https://avatars.githubusercontent.com/u/209155962?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/209155962?v=4",
+          "description_zh": "在沙箱中运行 AI 代理，限制它们在网络上执行、读取、写入和访问的内容。 Box 将操作系统隔离与默认拒绝 Dogwood 策略和凭据注入相结合，将秘密保留在代理之外。用 Rust 编写。支持 Apple 芯片上的 macOS 和 Linux。"
         },
         {
           "name": "npmscan-action",
@@ -1910,7 +2005,8 @@
             "npm"
           ],
           "license": "MIT",
-          "avatar": "https://avatars.githubusercontent.com/u/336907155?v=4"
+          "avatar": "https://avatars.githubusercontent.com/u/336907155?v=4",
+          "description_zh": "在合并之前捕获有风险的 npm 依赖项更改。"
         }
       ]
     }
