@@ -50,7 +50,7 @@
       var top = cat.repos[0];
       champEl.style.display = 'block';
       champEl.innerHTML =
-        '<div class="champ-label">⭐ 本类 Star 王 · 全类第 1 名</div>' +
+        '<div class="champ-label">⭐ 本类 Star 王 · 本类第 1 名</div>' +
         '<a href="' + esc(top.html_url) + '" target="_blank" rel="noopener">' + esc(top.full_name) + '</a>' +
         '<span class="champ-stars">★ ' + fmt(top.stars) + '</span>' +
         '<div class="champ-desc">' + esc(top.description_zh || top.description || '（暂无简介）') + '</div>';
