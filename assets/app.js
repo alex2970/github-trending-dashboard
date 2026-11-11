@@ -12,6 +12,7 @@
 
   var current = null;      // 当天数据
   var activeCat = 'all';   // 当前分类
+  var idxData = null;      // index.json 内容（含 alias：某天和上次榜单一样时指向上次文件）
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -38,9 +39,26 @@
     if (!cat) { cat = current.categories[0]; activeCat = cat.id; }
     renderTabs();
     catTitle.textContent = cat.icon + ' ' + cat.name;
-    catDesc.textContent = cat.desc + ' · 共 ' + cat.repos.length + ' 个';
+    catDesc.textContent = cat.desc + ' · 按 Star 从多到少排 · 共 ' + cat.repos.length + ' 个';
 
     var q = searchInput.value.trim().toLowerCase();
+
+    // Star 王：本分类 Star 最多的第 1 名（列表本身已按 Star 从多到少排）。
+    // 搜关键词时不展示，避免和筛选结果混淆。
+    var champEl = document.getElementById('champ');
+    if (!q && cat.repos.length) {
+      var top = cat.repos[0];
+      champEl.style.display = 'block';
+      champEl.innerHTML =
+        '<div class="champ-label">⭐ 本类 Star 王 · 全类第 1 名</div>' +
+        '<a href="' + esc(top.html_url) + '" target="_blank" rel="noopener">' + esc(top.full_name) + '</a>' +
+        '<span class="champ-stars">★ ' + fmt(top.stars) + '</span>' +
+        '<div class="champ-desc">' + esc(top.description_zh || top.description || '（暂无简介）') + '</div>';
+    } else {
+      champEl.style.display = 'none';
+      champEl.innerHTML = '';
+    }
+
     var list = cat.repos.filter(function (r) {
       if (!q) return true;
       return (r.full_name + ' ' + (r.description || '') + ' ' + (r.description_zh || '') + ' ' + (r.language || '')).toLowerCase().indexOf(q) !== -1;
@@ -49,16 +67,19 @@
     gridEl.innerHTML = '';
     emptyEl.style.display = list.length ? 'none' : 'block';
 
-    list.forEach(function (r, i) {
+    list.forEach(function (r) {
       var card = document.createElement('div');
       card.className = 'card';
+      var rank = cat.repos.indexOf(r) + 1;  // 真实 Star 名次（搜索筛选后仍按原名次显示）
+      var medal = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
+      var rankCls = rank === 1 ? ' rank-1' : rank === 2 ? ' rank-2' : rank === 3 ? ' rank-3' : '';
       var topics = (r.topics || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
       var zh = r.description_zh || '';
       var en = r.description || '';
       var descHtml = '<div class="desc">' + esc(zh || en || '（暂无简介）') + '</div>' +
         ((zh && en && zh !== en) ? '<div style="font-size:12px;color:var(--muted);margin-top:2px">' + esc(en) + '</div>' : '');
       card.innerHTML =
-        '<div class="rank">#' + (i + 1) + ' · 创建于 ' + esc(r.created_at) + '</div>' +
+        '<div class="rank' + rankCls + '">' + medal + '#' + rank + ' · 创建于 ' + esc(r.created_at) + '</div>' +
         '<h3><a href="' + esc(r.html_url) + '" target="_blank" rel="noopener">' + esc(r.full_name) + '</a></h3>' +
         descHtml +
         '<div class="topics">' + topics + '</div>' +
@@ -74,8 +95,13 @@
     });
   }
 
+  function fileFor(date) {
+    // 某天榜单和上次完全一样时，index.json 里有 alias 指向上一份文件
+    return (idxData && idxData.alias && idxData.alias[date]) || date;
+  }
+
   function loadDate(date) {
-    return fetch('data/' + date + '.json').then(function (resp) {
+    return fetch('data/' + fileFor(date) + '.json').then(function (resp) {
       if (!resp.ok) throw new Error('no data for ' + date);
       return resp.json();
     }).then(function (data) {
@@ -87,6 +113,7 @@
   }
 
   fetch('data/index.json').then(function (resp) { return resp.json(); }).then(function (idx) {
+    idxData = idx;
     var dates = idx.dates || [];
     if (!dates.length) throw new Error('no dates');
     dates.slice().reverse().forEach(function (d) {
