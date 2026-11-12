@@ -158,5 +158,6 @@
   "A list of useful payloads and bypass for Web Application Security and Pentest/CTF": "Web 应用程序安全和 Pentest/CTF 的有用负载和绕过列表",
   "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS": "具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器",
   "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.": "开源人工智能渗透测试工具，用于查找并修复应用程序的漏洞。",
-  "A V2Ray client for Android, support Xray core and v2fly core": "一款适用于Android的V2Ray客户端，支持Xray核心和v2fly核心"
+  "A V2Ray client for Android, support Xray core and v2fly core": "一款适用于Android的V2Ray客户端，支持Xray核心和v2fly核心",
+  "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.": "编写一个应用程序一次。它在网络、macOS、iOS 和 Linux 上本机运行，AI 代理可以在其中每一个上构建、运行、查看和测试它。"
 }
