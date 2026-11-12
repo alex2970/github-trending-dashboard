@@ -33,66 +33,66 @@
     });
   }
 
+  function matchQ(r, q) {
+    if (!q) return true;
+    return (r.full_name + ' ' + (r.description || '') + ' ' + (r.description_zh || '') + ' ' + (r.language || '')).toLowerCase().indexOf(q) !== -1;
+  }
+
+  function cardEl(r, rank) {
+    var card = document.createElement('div');
+    card.className = 'card';
+    var topics = (r.topics || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
+    var zh = r.description_zh || '';
+    var en = r.description || '';
+    var descHtml = '<div class="desc">' + esc(zh || en || '（暂无简介）') + '</div>' +
+      ((zh && en && zh !== en) ? '<div style="font-size:12px;color:var(--muted);margin-top:2px">' + esc(en) + '</div>' : '');
+    card.innerHTML =
+      '<div class="rank">#' + rank + ' · 创建于 ' + esc(r.created_at) + '</div>' +
+      '<h3><a href="' + esc(r.html_url) + '" target="_blank" rel="noopener">' + esc(r.full_name) + '</a></h3>' +
+      descHtml +
+      '<div class="topics">' + topics + '</div>' +
+      '<div class="meta">' +
+        '<span class="star">★ ' + fmt(r.stars) + '</span>' +
+        '<span>⑂ ' + fmt(r.forks) + ' forks</span>' +
+        (r.language ? '<span class="lang">' + esc(r.language) + '</span>' : '') +
+        '<span>最近更新 ' + esc(r.pushed_at) + '</span>' +
+        (r.license ? '<span>' + esc(r.license) + '</span>' : '') +
+      '</div>';
+    return card;
+  }
+
   function render() {
     var cat = null;
     current.categories.forEach(function (c) { if (c.id === activeCat) cat = c; });
     if (!cat) { cat = current.categories[0]; activeCat = cat.id; }
     renderTabs();
     catTitle.textContent = cat.icon + ' ' + cat.name;
-    catDesc.textContent = cat.desc + ' · 按 Star 从多到少排 · 共 ' + cat.repos.length + ' 个';
+    catDesc.textContent = cat.desc + ' · 共 ' + cat.repos.length + ' 个';
 
     var q = searchInput.value.trim().toLowerCase();
 
-    // Star 王：本分类 Star 最多的第 1 名（列表本身已按 Star 从多到少排）。
-    // 搜关键词时不展示，避免和筛选结果混淆。
-    var champEl = document.getElementById('champ');
-    if (!q && cat.repos.length) {
-      var top = cat.repos[0];
-      champEl.style.display = 'block';
-      champEl.innerHTML =
-        '<div class="champ-label">⭐ 本类 Star 王 · 本类第 1 名</div>' +
-        '<a href="' + esc(top.html_url) + '" target="_blank" rel="noopener">' + esc(top.full_name) + '</a>' +
-        '<span class="champ-stars">★ ' + fmt(top.stars) + '</span>' +
-        '<div class="champ-desc">' + esc(top.description_zh || top.description || '（暂无简介）') + '</div>';
+    // 热榜：原样渲染，不动
+    var list = cat.repos.filter(function (r) { return matchQ(r, q); });
+    gridEl.innerHTML = '';
+    list.forEach(function (r, i) { gridEl.appendChild(cardEl(r, i + 1)); });
+
+    // Star 榜：同分类下 Star 最多的 10 个（不限创建时间），在热榜下方单独一段。
+    // 老数据没有 star_top 时整段隐藏。
+    var starHeadEl = document.getElementById('starHead');
+    var starGridEl = document.getElementById('starGrid');
+    var starDescEl = document.getElementById('starDesc');
+    var starList = (cat.star_top || []).filter(function (r) { return matchQ(r, q); });
+    if (starList.length) {
+      starHeadEl.style.display = 'block';
+      starDescEl.textContent = '本类 Star 最多的 ' + (cat.star_top || []).length + ' 个 · 不限创建时间 · 按 Star 从多到少排';
+      starGridEl.innerHTML = '';
+      starList.forEach(function (r, i) { starGridEl.appendChild(cardEl(r, i + 1)); });
     } else {
-      champEl.style.display = 'none';
-      champEl.innerHTML = '';
+      starHeadEl.style.display = 'none';
+      starGridEl.innerHTML = '';
     }
 
-    var list = cat.repos.filter(function (r) {
-      if (!q) return true;
-      return (r.full_name + ' ' + (r.description || '') + ' ' + (r.description_zh || '') + ' ' + (r.language || '')).toLowerCase().indexOf(q) !== -1;
-    });
-
-    gridEl.innerHTML = '';
-    emptyEl.style.display = list.length ? 'none' : 'block';
-
-    list.forEach(function (r) {
-      var card = document.createElement('div');
-      card.className = 'card';
-      var rank = cat.repos.indexOf(r) + 1;  // 真实 Star 名次（搜索筛选后仍按原名次显示）
-      var medal = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
-      var rankCls = rank === 1 ? ' rank-1' : rank === 2 ? ' rank-2' : rank === 3 ? ' rank-3' : '';
-      var topics = (r.topics || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
-      var zh = r.description_zh || '';
-      var en = r.description || '';
-      var descHtml = '<div class="desc">' + esc(zh || en || '（暂无简介）') + '</div>' +
-        ((zh && en && zh !== en) ? '<div style="font-size:12px;color:var(--muted);margin-top:2px">' + esc(en) + '</div>' : '');
-      card.innerHTML =
-        '<div class="rank' + rankCls + '">' + medal + '#' + rank + ' · 创建于 ' + esc(r.created_at) + '</div>' +
-        '<h3><a href="' + esc(r.html_url) + '" target="_blank" rel="noopener">' + esc(r.full_name) + '</a></h3>' +
-        descHtml +
-        '<div class="topics">' + topics + '</div>' +
-        '<div class="meta">' +
-          '<span class="star">★ ' + fmt(r.stars) + '</span>' +
-          '<span>⑂ ' + fmt(r.forks) + ' forks</span>' +
-          (r.language ? '<span class="lang">' + esc(r.language) + '</span>' : '') +
-          '<span>最近更新 ' + esc(r.pushed_at) + '</span>' +
-          (r.license ? '<span>' + esc(r.license) + '</span>' : '') +
-        '</div>';
-
-      gridEl.appendChild(card);
-    });
+    emptyEl.style.display = (list.length || starList.length) ? 'none' : 'block';
   }
 
   function fileFor(date) {
