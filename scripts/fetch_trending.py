@@ -11,6 +11,9 @@
 
   总榜：近 30 天创建且 stars > 300，按 stars 排序的前 10。
 
+- “Star 榜”口径：同分类下不限创建时间、按 stars 排序的前 10（总榜则为全站
+  stars 最高的 10 个）；每个分类的热榜下方单独一段展示，热榜本身不动。
+
 - 输出：data/<日期>.json、data/latest.json、data/index.json（日期清单）。
 
 - 去重：当天榜单内容和上次完全一样时，不另存日期文件，index.json 记
@@ -77,9 +80,15 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 SLEEP = 1.0 if TOKEN else 2.5
 
+_SEARCH_CALLS = 0
+
 
 def gh_search(query, per_page=10):
-    """一次 Search API 调用，返回 items 列表；遇限流等 60 秒再试一次。"""
+    """一次 Search API 调用，返回 items 列表；遇限流等 60 秒再试一次。
+
+    搜索接口认证额度 30 次/分钟：每攒够 25 次调用歇 60 秒，避免 429。
+    """
+    global _SEARCH_CALLS
     url = f"{API}?q={urllib.request.quote(query)}&sort=stars&order=desc&per_page={per_page}"
     headers = {
         "Accept": "application/vnd.github+json",
@@ -105,7 +114,10 @@ def gh_search(query, per_page=10):
             time.sleep(5)
             return []
         finally:
+            _SEARCH_CALLS += 1
             time.sleep(SLEEP)
+            if _SEARCH_CALLS % 25 == 0:
+                time.sleep(60)
     return []
 
 
@@ -223,6 +235,29 @@ def pick(cat, seen, now):
     return top
 
 
+def pick_star(cat):
+    """给一个分类取 Star 榜：同分类下不限创建时间、按 stars 排序的前 10。
+
+    总榜的“分类”就是全站，取全站 stars 最高的 10 个。
+    Star 榜各分类独立，不跨类去重。
+    """
+    pool = {}
+
+    def run(queries):
+        for q in queries:
+            for item in gh_search(q):
+                fn = item.get("full_name")
+                if fn and fn not in pool:
+                    pool[fn] = clean(item)
+
+    if cat["id"] == "all":
+        run(["stars:>1000"])
+    else:
+        run([f"topic:{t}" for t in cat["topics"]])
+
+    return sorted(pool.values(), key=lambda r: r["stars"], reverse=True)[:10]
+
+
 def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_dir = os.path.join(root, "data")
@@ -246,15 +281,17 @@ def main():
         print(f"[{cat['id']}] fetching...")
         repos = pick(cat, seen, now)
         print(f"[{cat['id']}] got {len(repos)}")
+        star_top = pick_star(cat)
+        print(f"[{cat['id']}] star top {len(star_top)}")
         cats.append({
             "id": cat["id"], "name": cat["name"], "icon": cat["icon"],
-            "desc": cat["desc"], "repos": repos,
+            "desc": cat["desc"], "repos": repos, "star_top": star_top,
         })
 
     # 翻译缺失的简介（按原文去重，带间隔，失败留空下次再试）
     todo = []
     for c in cats:
-        for r in c["repos"]:
+        for r in list(c["repos"]) + list(c.get("star_top") or []):
             d = r.get("description") or ""
             if d and d not in cache and d not in todo:
                 todo.append(d)
@@ -269,7 +306,7 @@ def main():
         done = sum(1 for d in todo if d in cache)
         print(f"translated {done} / {len(todo)} new descriptions")
     for c in cats:
-        for r in c["repos"]:
+        for r in list(c["repos"]) + list(c.get("star_top") or []):
             r["description_zh"] = cache.get(r.get("description") or "", "")
 
     payload = {
@@ -281,7 +318,7 @@ def main():
     note = save_payload(payload, data_dir)
     print(note)
 
-    total = sum(len(c["repos"]) for c in cats)
+    total = sum(len(c["repos"]) + len(c.get("star_top") or []) for c in cats)
     print(f"done: {date_str} ({total} repos, {len(cats)} categories)")
 
 
