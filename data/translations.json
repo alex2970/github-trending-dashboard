@@ -160,5 +160,8 @@
   "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.": "开源人工智能渗透测试工具，用于查找并修复应用程序的漏洞。",
   "A V2Ray client for Android, support Xray core and v2fly core": "一款适用于Android的V2Ray客户端，支持Xray核心和v2fly核心",
   "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.": "编写一个应用程序一次。它在网络、macOS、iOS 和 Linux 上本机运行，AI 代理可以在其中每一个上构建、运行、查看和测试它。",
-  "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake": "《塞尔达传说：时之笛》Nintendo Switch 2 Remake 的原生重新编译"
+  "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake": "《塞尔达传说：时之笛》Nintendo Switch 2 Remake 的原生重新编译",
+  "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux": "isterdownloadmanager：终极开源、无尘室下载管理器，使用纯 Rust 从头编写，适用于 Windows、Mac 和 Linux",
+  "Play a finished motion-graphics ad in sync with the rough drafts it grew from, and export the breakdown as MP4.": "与草稿同步播放完成的动态图形广告，并将细分导出为 MP4。",
+  "FastAPI framework, high performance, easy to learn, fast to code, ready for production": "FastAPI框架，高性能，易学，快速编码，可用于生产"
 }
