@@ -163,5 +163,9 @@
   "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake": "《塞尔达传说：时之笛》Nintendo Switch 2 Remake 的原生重新编译",
   "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux": "isterdownloadmanager：终极开源、无尘室下载管理器，使用纯 Rust 从头编写，适用于 Windows、Mac 和 Linux",
   "Play a finished motion-graphics ad in sync with the rough drafts it grew from, and export the breakdown as MP4.": "与草稿同步播放完成的动态图形广告，并将细分导出为 MP4。",
-  "FastAPI framework, high performance, easy to learn, fast to code, ready for production": "FastAPI框架，高性能，易学，快速编码，可用于生产"
+  "FastAPI framework, high performance, easy to learn, fast to code, ready for production": "FastAPI框架，高性能，易学，快速编码，可用于生产",
+  "VERY experimental Nintendo Switch 2 emulator": "非常实验性的 Nintendo Switch 2 模拟器",
+  "Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in.": "你的任务，你的服务器。您可以自己托管的开源、本地优先的任务管理器。商业任务应用程序提供您所期望的一切，无需订阅或锁定。",
+  "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative": "适用于 macOS、Windows 和 Linux 的小型、快速容器运行时，具有免费的 Ngrok 替代方案",
+  "DevStart Lab - An interactive open-source platform to learn programming, explore real projects, and contribute to GitHub.": "DevStart Lab - 一个交互式开源平台，用于学习编程、探索真实项目以及为 GitHub 做出贡献。"
 }
