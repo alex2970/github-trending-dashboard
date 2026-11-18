@@ -180,5 +180,12 @@
   "AI API 中转站推荐与评测：中转站排行榜、中转站检测、Claude / GPT / Gemini 中转站对比 · AI API relay rankings · Folkbench Switch for Claude Code, Codex & Gemini CLI": "AI API 中转站推荐与体育：中转站排行榜、中转站检测、Claude / GPT / Gemini 中转站对比 · AI API 中继排名 · Folkbench Switch for Claude Code, Codex & Gemini CLI",
   "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills.": "通过真实的机器人实验和共享的可执行技能，对机器人操作进行递归自我改进。",
   "The Agentic-Native Operating System": "Agentic-Native 操作系统",
-  "Agent skill for narrated cinematic films built entirely from code: one continuous camera over photos, maps and cards, timed to the voice. Claude Code, Codex, Cursor, Gemini CLI.": "完全由代码构建的叙事电影电影的代理技能：一台连续摄像机拍摄照片、地图和卡片，根据声音计时。克劳德代码、Codex、光标、Gemini CLI。"
+  "Agent skill for narrated cinematic films built entirely from code: one continuous camera over photos, maps and cards, timed to the voice. Claude Code, Codex, Cursor, Gemini CLI.": "完全由代码构建的叙事电影电影的代理技能：一台连续摄像机拍摄照片、地图和卡片，根据声音计时。克劳德代码、Codex、光标、Gemini CLI。",
+  "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote.": "为UU远程打造的Mac移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、遵循iOS交互习惯，让Mac在手机上拥有原生级的操作体验。一个原生级的iPhone工作区，用于通过UU Remote控制您的Mac。",
+  "Your AI-native personal context library. Collect, organize and reuse context across AI conversations.": "您的人工智能原生个人上下文库。收集、组织和重用 AI 对话中的上下文。",
+  "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.": "知识基础设施让您的座席变得更加聪明。通过一个 API 搜索、抓取和 550 多个数据提供商。",
+  "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.": "一个代理原生操作系统，以 Hermes Agent 作为界面。独立项目，不隶属于 Nous Research。",
+  "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.": "适用于团队及其代理的人工智能原生引擎。多线束、多代理、自托管。",
+  "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.": "🤖 开源、本地优先的 Grok Bot、OpenAIdots 和 Claude Duet 的替代品。您可以在任何型号上使用您自己的 AI 机器人：GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 以及通过一个 Modelflare 键即可使用的 70 多个机器人。通过应用程序、微信或飞书联系他们；他们会记住您，在后台工作，运行命令并使用您的计算机。按使用付费。",
+  "Agent skill for structured study plans, daily lessons, mistake review, and LaTeX PDFs": "结构化学习计划、日常课程、错误审查和 LaTeX PDF 的代理技能"
 }
