@@ -193,5 +193,15 @@
   "One self-hosted app for your shows, movies and music.": "一款适用于您的节目、电影和音乐的自托管应用程序。",
   "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.": "Manina AI：让 AI 模型使用配备 7 美元 ESP32 的真实 iPhone：AirPlay 眼睛、USB HID 手、任何 OpenAI 兼容的视觉模型。没有Mac，没有开发者帐户，没有越狱。",
   "Open-source whiteboard AI tutor with animated lessons and interactive playback. Compare Claude, Gemini & DeepSeek across 288 generation runs and 64 blind-reviewed boards.": "开源白板人工智能导师，具有动画课程和互动播放功能。比较 Claude、Gemini 和 DeepSeek 的 288 代运行和 64 个盲审板。",
-  "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 种架构，29 种方法，麻省理工学院。"
+  "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 种架构，29 种方法，麻省理工学院。",
+  "Buyer-controlled client for x402 API payments in USDC on Base.": "买方控制的客户端，用于在 Base 上以 USDC 进行 x402 API 付款。",
+  "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)": "ARTEX - AI自主渗透测试系统（英文翻译；上游：Autumn-27/ARTEX、AGPL-3.0）",
+  "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B) and Hy4-Flash (220B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.": "在您自己的 GPU 上运行 GLM-5.3 (744B)、DeepSeek-V4.1-Flash (748B)、MiniMax-M3.1-Flash (428B)、GLM-5.3-Flash (321B) 和 Hy4-Flash (220B) - 8 GB VRAM、NVIDIA 和 AMD、一个仪表板、OpenAI 和 Anthropic 兼容 API。",
+  "Auto researching harness that burns through everything.": "燃烧一切的汽车研究线束。",
+  "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).": "粘贴链接，在大约 2 分钟内获得带有字幕的 9:16 剪辑。免费、本地、开源剪辑引擎（音频优先、YouTube 字幕、本地法学硕士）。",
+  "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.": "私人人工智能会议记录保留在您的计算机上。适用于 Mac、Windows 和 Linux 的 Granola 的免费开源替代品。",
+  "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.": "通过 ADB 消除 Fire TV 中的广告、跟踪和混乱，无需 root。每一步都可以撤消。配备自己的开源主屏幕。",
+  "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. no root, no PC.": "精简您的 Android TV、安装应用程序、浏览和传输文件，所有这些都可以通过您的手机完成。没有root，没有电脑。",
+  "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.": "在本地即时搜索文档、代码甚至屏幕截图。一个免费的开源文件启动器，具有 OCR、语义搜索和 MCP 代理访问功能。",
+  "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.": "基于 SearXNG 的 AI 代理自托管元搜索和基础引擎。 Rust、JSON API、可选页面文本。"
 }
