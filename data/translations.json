@@ -203,5 +203,10 @@
   "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.": "通过 ADB 消除 Fire TV 中的广告、跟踪和混乱，无需 root。每一步都可以撤消。配备自己的开源主屏幕。",
   "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. no root, no PC.": "精简您的 Android TV、安装应用程序、浏览和传输文件，所有这些都可以通过您的手机完成。没有root，没有电脑。",
   "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.": "在本地即时搜索文档、代码甚至屏幕截图。一个免费的开源文件启动器，具有 OCR、语义搜索和 MCP 代理访问功能。",
-  "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.": "基于 SearXNG 的 AI 代理自托管元搜索和基础引擎。 Rust、JSON API、可选页面文本。"
+  "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.": "基于 SearXNG 的 AI 代理自托管元搜索和基础引擎。 Rust、JSON API、可选页面文本。",
+  "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.": "知识基础设施让您的座席变得更加聪明。通过一个 API 搜索、抓取和访问 550 多个数据提供商。",
+  "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.": "将旧的 Android 手机变成适用于 Windows、Linux 和 macOS 的可定制桌面面板和触摸控制面板。 124 个小部件和 30 个模板，用于系统统计、AI 编码、媒体和自动化，支持 13 种语言。 USB 或配对的 Wi-Fi。无需云。",
+  "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.": "Orca 允许您使用自己的订阅运行一组机器人（例如 Claude Code、Grok、Agy、Codex）。可在桌面、移动和远程运行时使用。",
+  "Read scientific documents in your language, in realtime, on any platform. 在任何平台上用您的语言实时翻译和阅读科学文献。": "在任何平台上实时阅读您语言的科学文献。 在任何平台上用您的语言实时翻译和阅读科学文献。",
+  "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.": "私人人工智能会议记录保留在您的计算机上。没有会议机器人。适用于 Mac、Windows 和 Linux 的免费开源软件。格兰诺拉麦片、水獭和萤火虫的替代品。"
 }
