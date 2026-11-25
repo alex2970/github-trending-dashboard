@@ -222,5 +222,16 @@
   "Pimsleur - language learning software for audio-based lessons, vocabulary drills and progress tracking on Windows 10/11": "Pimsleur - 用于 Windows 10/11 上的音频课程、词汇练习和进度跟踪的语言学习软件",
   "让远程 Mac 在任意设备上获得原生级体验。支持 UU远程 与 CrossDesk 的显示与触控增强：手机、平板、电脑各有专属屏幕，画面铺满、字号随屏，原生触屏手势，App 资源库。Make your remote Mac native on any device: display and touch enhancements for UU Remote and CrossDesk, with a dedicated screen for every phone, tablet and computer, native touch gestures and an App Library.": "让远程Mac在任何上设备上获得原生级手机体验。支持UU远程与CrossDesk的显示与触控增强：平板、电脑各有专属屏幕，画面铺满、字号随屏，触屏触控，App资源库。让您的远程Mac在任何设备上原生：UU Remote和CrossDesk的显示和触控增强，为每部手机、平板电脑和电脑提供专用屏幕、原生触控手势和应用程序库。",
   "TradingAgents: Towards Agentic Finance Research": "TradingAgents：迈向代理金融研究",
-  "eBPF-based security platform": "基于eBPF的安全平台"
+  "eBPF-based security platform": "基于eBPF的安全平台",
+  "An attempt at running GTA VI on PC": "尝试在PC上运行GTA VI",
+  "Capture it. Copy it. Hang it all out to dry. A tiny native macOS app that hangs every screenshot, and anything you copy, on a line at the top of your screen, and finds any word on it.": "捕捉它。复制它。将其全部挂起来晾干。一个小型的原生 macOS 应用程序，可将每个屏幕截图以及您复制的任何内容挂在屏幕顶部的一行上，并查找上面的任何单词。",
+  "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.": "免费的开源 Windows 剪贴板管理器，具有可搜索历史记录、图像预览、标签、编辑和备份。",
+  "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.": "适用于 Windows 的免费开源 Steam 成就管理器，用于管理游戏成就并编辑 Steam 游戏统计数据。",
+  "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.": "不要用 Rust 重写它。重写缓慢的 5%：分析 Python、Node 或 Ruby 应用程序，使用编码代理移植热门功能，证明它们的行为相同。",
+  "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.": "积极维护ARTEX：AI自主渗透测试系统。自托管、模型不可知、有证据支持的发现。 Autumn-27/ARTEX、AGPL-3.0 的社区延续。",
+  "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.": "渲染任何引擎：告诉你的人工智能要做什么。视频、动态图形、3D 和游戏（如 React 和 TypeScript）在您自己的 GPU 上渲染。 Rust + Bevy、macOS、Linux 和 Windows。",
+  "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.": "在您自己的 GPU 上运行 GLM-5.3 (744B)、DeepSeek-V4.1-Flash (748B)、MiniMax-M3.1-Flash (428B)、GLM-5.3-Flash (321B)、Hy4-Flash (220B) 和 Inkling 2 Mini (26B) - 8 GB VRAM、NVIDIA 和 AMD、一个仪表板、兼容 OpenAI 和 Anthropic 的 API。",
+  "Run large AI models on your own PC: Qwen3.8-Flash-Next on Strata's engine, and GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith 1.5, Gemma 4, Tiel Coder and MiniCPM-V on a second engine written for PolyStrata. One-click install for Windows and Linux, OpenAI/Anthropic API on localhost.": "在您自己的 PC 上运行大型 AI 模型：在 Strata 引擎上运行 Qwen3.8-Flash-Next，在为 PolyStrata 编写的第二个引擎上运行 GLM 5.3 Flash、DeepSeek V4 Flash、LFM2.5、Qwen3.6、Ornith 1.5、Gemma 4、Tiel Coder 和 MiniCPM-V。在本地主机上一键安装 Windows 和 Linux、OpenAI/Anthropic API。",
+  "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.": "免费的 Windows FFmpeg GUI，用于视频和音频转换、批量转码和多媒体格式编码。",
+  "Agent skill for narrated cinematic films built entirely from code.": "完全由代码构建的叙事电影的代理技能。"
 }
