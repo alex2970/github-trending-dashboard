@@ -233,5 +233,8 @@
   "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.": "在您自己的 GPU 上运行 GLM-5.3 (744B)、DeepSeek-V4.1-Flash (748B)、MiniMax-M3.1-Flash (428B)、GLM-5.3-Flash (321B)、Hy4-Flash (220B) 和 Inkling 2 Mini (26B) - 8 GB VRAM、NVIDIA 和 AMD、一个仪表板、兼容 OpenAI 和 Anthropic 的 API。",
   "Run large AI models on your own PC: Qwen3.8-Flash-Next on Strata's engine, and GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith 1.5, Gemma 4, Tiel Coder and MiniCPM-V on a second engine written for PolyStrata. One-click install for Windows and Linux, OpenAI/Anthropic API on localhost.": "在您自己的 PC 上运行大型 AI 模型：在 Strata 引擎上运行 Qwen3.8-Flash-Next，在为 PolyStrata 编写的第二个引擎上运行 GLM 5.3 Flash、DeepSeek V4 Flash、LFM2.5、Qwen3.6、Ornith 1.5、Gemma 4、Tiel Coder 和 MiniCPM-V。在本地主机上一键安装 Windows 和 Linux、OpenAI/Anthropic API。",
   "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.": "免费的 Windows FFmpeg GUI，用于视频和音频转换、批量转码和多媒体格式编码。",
-  "Agent skill for narrated cinematic films built entirely from code.": "完全由代码构建的叙事电影的代理技能。"
+  "Agent skill for narrated cinematic films built entirely from code.": "完全由代码构建的叙事电影的代理技能。",
+  "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.": "您的家作为 Mac 菜单栏和 iPhone 上的实时 3D 模型 — 通过 Smart Life、Home Assistant、Philips Hue 和 Apple Home 提供灯光和空调。",
+  "Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.": "Inkworks：一种代理技能，用于像工程图纸一样绘制交互式 3D 工作原理页面。",
+  "Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.": "免费的 Windows AV1 视频编码器 GUI，适用于 aomenc、rav1e、SVT-AV1、NVENC、Quick Sync 和 VP9，具有并行编码功能。"
 }
