@@ -236,5 +236,14 @@
   "Agent skill for narrated cinematic films built entirely from code.": "完全由代码构建的叙事电影的代理技能。",
   "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.": "您的家作为 Mac 菜单栏和 iPhone 上的实时 3D 模型 — 通过 Smart Life、Home Assistant、Philips Hue 和 Apple Home 提供灯光和空调。",
   "Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.": "Inkworks：一种代理技能，用于像工程图纸一样绘制交互式 3D 工作原理页面。",
-  "Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.": "免费的 Windows AV1 视频编码器 GUI，适用于 aomenc、rav1e、SVT-AV1、NVENC、Quick Sync 和 VP9，具有并行编码功能。"
+  "Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.": "免费的 Windows AV1 视频编码器 GUI，适用于 aomenc、rav1e、SVT-AV1、NVENC、Quick Sync 和 VP9，具有并行编码功能。",
+  "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.": "用 Rust 一点一点重写你的应用程序，每一步都与原始版本进行检查。适用于 TypeScript、JavaScript、Python、Go、Ruby、Java、C、PHP、C#、Kotlin 和 PowerShell。",
+  "岛仔 Daozai 是一款用 Rust 构建的 Windows 桌面信息岛。抬眼就能看天气、系统性能、蓝牙电量、音乐歌词、邮件验证码、日程、待办和 AI 额度。内置插件集市，可按需扩展功能。": "岛仔 Daozai 是一款用 Rust 构建的 Windows 桌面信息岛。抬眼可以看、系统性能、蓝牙无线、音乐歌词、邮件验证码、日程、待办和 AI 模块。内置插件集市，可多层扩展功能。",
+  "让远程 Mac 在任意设备上获得原生级体验。支持 UU远程、CrossDesk 与向日葵（官方适配版）的显示与触控增强：手机、平板、电脑各有专属屏幕，画面铺满、字号随屏，原生触屏手势，App 资源库。Make your remote Mac native on any device: display and touch enhancements for UU Remote, CrossDesk and Sunlogin (official port), with a dedicated screen for every phone, tablet and computer, native touch gestures and an App Library.": "让远程Mac在任何设备上获得原生级体验。支持UU远程、CrossDesk与向日葵（官方改装版）的显示与增强：手机、平板、电脑各有专属屏幕，画面铺满、字号随屏，触屏桌面，App资源库。让您的远程Mac在任何设备上原生：UU Remote、CrossDesk和向日葵（官方移植）的显示和触摸增强，为每部手机、平板电脑和电脑提供专用屏幕，原生触摸手势和应用程序库。",
+  "Agent Native, Rust based, high performance way to build apps on web, iOS, macOS, Android, Linux and other platforms. ": "Agent Native、基于 Rust 的高性能方式在 Web、iOS、macOS、Android、Linux 和其他平台上构建应用程序。",
+  "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B), Ling-3.2-air (128B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.": "在您自己的 GPU 上运行 GLM-5.3 (744B)、DeepSeek-V4.1-Flash (748B)、MiniMax-M3.1-Flash (428B)、GLM-5.3-Flash (321B)、Hy4-Flash (220B)、Ling-3.2-air (128B) 和 Inkling 2 Mini (26B) - 来自 8 GB VRAM、NVIDIA 和 AMD，一个仪表板、OpenAI 和 Anthropic 兼容的 API。",
+  "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.": "在普通 CPU 上进行快速本地 LLM 推理。无 GPU，8 GB RAM。 OpenAI 兼容服务器。",
+  "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.": "启动并运行 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 和其他模型。",
+  "中小学 11 学科知识图谱查漏补缺：4,221 个知识点、6,681 条先修关系、17,031 道题。按国家课程标准逐条核对，诊断定位真正没学会的前置知识点，给出补学路径。": "中小学11学科知识图谱查漏补缺：4,221个知识点、6,681条先修关系、17,031道题。按国家课程标准逐条核对，诊断定位真正没学会的假设知识点，给出补学路径。",
+  "交互式电子电路学堂：用可以动手拨弄的仿真学电路": "交互式电子电路学堂：用可以交互拨弄的仿真电路"
 }
