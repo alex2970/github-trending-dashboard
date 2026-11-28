@@ -245,5 +245,15 @@
   "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.": "在普通 CPU 上进行快速本地 LLM 推理。无 GPU，8 GB RAM。 OpenAI 兼容服务器。",
   "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.": "启动并运行 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 和其他模型。",
   "中小学 11 学科知识图谱查漏补缺：4,221 个知识点、6,681 条先修关系、17,031 道题。按国家课程标准逐条核对，诊断定位真正没学会的前置知识点，给出补学路径。": "中小学11学科知识图谱查漏补缺：4,221个知识点、6,681条先修关系、17,031道题。按国家课程标准逐条核对，诊断定位真正没学会的假设知识点，给出补学路径。",
-  "交互式电子电路学堂：用可以动手拨弄的仿真学电路": "交互式电子电路学堂：用可以交互拨弄的仿真电路"
+  "交互式电子电路学堂：用可以动手拨弄的仿真学电路": "交互式电子电路学堂：用可以交互拨弄的仿真电路",
+  "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.": "244 个像素艺术效果，每一个都是一小段代码。加上克劳德代码技能来创造你自己的。",
+  "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。": "Cage：为Claude特化的轻量化虚拟机，彻底杜绝网络丢失。多平台搭载，支持多账号管理、远程部署、移动端操控。",
+  "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.": "适用于 Windows 的免费开源 Stardew Valley Mod 管理器，具有 SMAPI 支持、Mod 更新和自定义配置文件。",
+  "🙃   A delightful community-driven (with 2,600+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.": "🙃 一个令人愉快的社区驱动（拥有 2,600 多个贡献者）框架，用于管理您的 zsh 配置。包括 300 多个可选插件（rails、git、macOS、hub、docker、homebrew、node、php、python 等）、140 多个主题让您的早晨更加有趣，还有一个自动更新工具，让您可以轻松跟上社区的最新更新。",
+  "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.": "不要用 Rust 重写它。重写缓慢的 5%：分析您的应用程序，使用编码代理移植热门功能，证明它们的行为相同。 Python、JS/TS、Ruby、Java、Kotlin、Go、PHP、C/C++、C#、R。",
+  "Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)": "光学 UI、阻尼弹簧编排、512K 浅水瓶、像素吉祥物和反重力双模式思想套件 (GPL-3.0)",
+  "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.": "适用于 Windows 的免费 AI 图像放大器和照片降噪器，由 Vulkan GPU 加速和 ncnn 神经网络提供支持。",
+  "中小学 11 学科知识图谱数据集（JSON）：4,231 知识点、6,700 条先修关系、17,092 道题；对齐国家课程标准与人教版/统编版教材，含沪教版等版本映射。CC BY-NC 4.0。": "中小学11学科知识图谱数据集（JSON）：4,231知识点、6,700条先修关系、17,092道题；统一国家课程标准与人教版/统编版教材，含沪教版等版本映射。CC BY-NC 4.0。",
+  "Free open-source Windows video downloader GUI for YouTube and 1,000+ websites, powered by yt-dlp.": "适用于 YouTube 和 1,000 多个网站的免费开源 Windows 视频下载器 GUI，由 yt-dlp 提供支持。",
+  "Fast, free Windows image viewer with photo browsing, editing, folder management, and optional video playback.": "快速、免费的 Windows 图像查看器，具有照片浏览、编辑、文件夹管理和可选视频播放功能。"
 }
